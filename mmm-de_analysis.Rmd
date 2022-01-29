@@ -1,0 +1,344 @@
+---
+title: "Maize mucilage metatranscriptome DGE Analysis"
+author: "Shawn Higdon"
+date: "1/18/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load libraries
+```{r, message=FALSE}
+#library(DESeq2)
+library(edgeR)
+library(tidyverse)
+library(DESeq2)
+library(BiocParallel)
+```
+
+## Import sample map
+```{r}
+sample.map <- read_csv("./metadata/sample_map.csv", col_names = TRUE)
+sample.map
+```
+
+
+## Import raw counts
+
+> Define function to read in and assemble raw count feature tables for all 3 salmon-cdhit aggregated transcriptome raw count data sets.
+
+
+```{r, message=FALSE}
+
+# Define function
+read_quant <- function (value) {
+  
+  ## define sample IDS
+  sampID <- sample.map$sample
+
+  ## make list of file pahts
+  paths <- list.files(path = paste0("counts/quant_",value),
+                      pattern = "*.counts",
+                      recursive = T, full.names = T)
+  
+  ## make list object of count tables
+  list <- lapply(paths, read_tsv)
+  
+  ## add column to every dataframe indicating the sample
+  list <- mapply(cbind, list, "sample" = sampID, SIMPLIFY = F)
+  
+  ## Create one dataframe with raw transcript counts for all 6 samples
+  df <- do.call("rbind", list)
+  
+  ## spread from long to wide format feature table & save to global env
+  df.wide <- assign(paste0("count_",value,"_df.wide"),
+                    spread(df, key = sample, value = count),
+                    envir = .GlobalEnv)
+
+}
+
+# make list of CDHIT threshold values used to aggregate each sample denovo txome into a single txome
+thresholds <- c("0.95", "0.98", "1")
+
+# execute the function on all 3 datasets
+for (i in thresholds) {
+  print(i)
+  read_quant(i)
+}
+```
+
+
+## DGE analysis
+
+> * First pass analysis implemented by following the workflow presented at [Stanford RNAseq Tutorial HERE](https://web.stanford.edu/class/bios221/labs/rnaseq/lab_4_rnaseq.html).
+>
+> * Analysis begins with most diverse transcriptome @ a CDHIT threshold of 1. This threshold required 100% identity for transcripts to be clustered (i.e. duplicates were eliminated). This will enable more robust SNP analysis downstream.
+>
+
+### EdgeR
+
+#### Format & filter data
+
+> The data frame containing sample counts must be properly configured to be stored in `DGEList` object.
+
+```{r}
+# as dataframe object, transcripts are row names
+raw.df <- as.data.frame(count_1_df.wide, row.names = count_1_df.wide$transcript)[,2:7]
+raw.matrix <- as.matrix(raw.df)
+
+dcq <- DGEList(counts = raw.matrix, group = factor(sample.map$fix_grp))
+dcq
+
+# keep original
+dcq.full <- dcq
+
+# show original matrix dimensions
+dim(dcq.full)
+
+# filter out rows with less than 100 cpm for at least 2 samples
+keep <- which(rowSums(cpm(dcq)>10) >= 2)
+dcq <- dcq[keep,]
+dim(dcq)
+
+# adjust lib size
+dcq$samples$lib.size <- colSums(dcq$counts)
+dcq$samples
+```
+
+> Filtering transcripts to keep only those with cpm values ≥ 100 in ≥ 2 samples reduces pool from `400829` to `1046` transcripts.
+
+#### Normalize data
+
+> EdgeR normalizes by total count using the Trimmed mean of M-values __(TMM)__ method.
+
+```{r}
+dcq <- calcNormFactors(dcq)
+dcq
+```
+
+#### Explore data
+
+```{r}
+plotMDS(dcq, method="logFC", col=as.numeric(dcq$samples$group))
+legend("bottomleft", as.character(unique(dcq$samples$group)), col=2:1, pch=20)
+
+```
+
+#### Estimate/Model Dispersion
+
+##### Common Dispersion
+```{r}
+d1 <- estimateCommonDisp(dcq, verbose = T)
+
+names(d1)
+```
+
+##### Tagwise Dispersion
+```{r}
+d1 <- estimateTagwiseDisp(d1)
+names(d1)
+```
+
+```{r}
+plotBCV(d1)
+```
+
+##### GLM-est. Dispersion
+```{r}
+design.mat <- model.matrix(~ 0 + dcq$samples$group)
+colnames(design.mat) <- levels(dcq$samples$group)
+d2 <- estimateGLMCommonDisp(dcq, design.mat)
+d2 <- estimateGLMTrendedDisp(d2, design.mat, method="power")
+d2 <- estimateGLMTagwiseDisp(d2, design.mat)
+plotBCV(d2)
+```
+
+> We see that...
+
+
+#### Differential Expression
+
+> * Once dispersion is estimated, we proceed to test and determine differential expression of genes / transcript presence in each sample.
+>
+> * The function `exactTest()` is used to carry out the `exact negative binomial test`.
+>
+> * By default, we use this function to implement the `Benjamini and Hochberg algorithm` to control the false discovery rate (FDR).
+>
+> * Test results for the top _n_ significant tags (transcript IDs) are displayed with the function, `topTags()`
+>
+
+```{r}
+
+et <- exactTest(d2, pair = c(1,2))
+topTags(et, n=100)
+```
+
+```{r}
+de1 <- decideTestsDGE(et, adjust.method = "BH", p.value = 0.05)
+summary(de1)
+
+```
+
+
+
+### DESeq2
+
+#### Format data
+
+> * Critical for column name order of count matrix and row name in column metadata table are in conserved order.
+
+```{r}
+
+# define raw count matrix
+cts <- as.data.frame(count_1_df.wide, row.names = count_1_df.wide$transcript)[,2:7]
+cts.mat <- as.matrix(cts)
+head(cts.mat, 2)
+
+# define sample data (coldata) data frame
+coldata <- sample.map %>% select(sample, fix_grp, var)
+coldata <- as.data.frame(coldata)
+rownames(coldata) <- coldata$sample
+coldata <- coldata[,-1]
+coldata$fix_grp <- factor(coldata$fix_grp)
+coldata$var <- factor(coldata$var)
+str(coldata)
+
+# test sample order in count matrix and coldata table
+all(rownames(coldata) %in% colnames(cts.mat))
+all(rownames(coldata) == colnames(cts.mat))
+```
+
+#### Create DESeq Dataset
+
+```{r}
+dds <- DESeqDataSetFromMatrix(countData = round(cts.mat),
+                              colData = coldata,
+                              design = ~ fix_grp)
+dds
+```
+
+#### Pre-filtering
+
+> Keep rows (transcripts) that have at least 10 reads total
+
+```{r}
+keep <- rowSums(counts(dds)) >= 10
+dds2 <- dds[keep,]
+```
+
+> Resulting reduction from 400829 to 117815 transcripts with ≥ 10 total counts across 6 samples
+
+#### DE Analysis
+
+> Alpha = 0.05
+
+```{r}
+library(BiocParallel)
+dds2 <- DESeq(dds2, parallel = TRUE, BPPARAM = MulticoreParam(6))
+
+# calculate results at alpha = 0.05
+res <- results(dds2,
+               contrast=c("fix_grp","High","Low"),
+               alpha = 0.05,
+               parallel = TRUE,
+               BPPARAM = MulticoreParam(6))
+res
+```
+
+##### Summary
+
+```{r}
+summary(res)
+sum(res$padj < 0.05, na.rm = TRUE)
+
+mcols(res)$description
+```
+
+> 580 transcripts with p-adj values less than 0.05, implying 580 transcripts of 117815 have high confidence LFC values across High and Low N-fixation phenotypic conditions.
+
+##### Explore Results
+
+```{r}
+plotMA(res, ylim=c(-30,30))
+```
+
+##### Rank transcripts
+
+> reorder the list of transcript LFC results based on p-adj values
+
+```{r}
+resOrdered <- res[order(res$padj),]
+
+resSig05 <- subset(resOrdered, padj < 0.05)
+
+resSig01 <- as.data.frame(subset(resOrdered, padj < 0.01))
+nrow(resSig01)
+head(resSig01, n=10)
+
+
+```
+
+##### Export Transcript List
+
+```{r}
+write.csv(as.data.frame(resSig05),
+          file = "R_output/deseq2-fix_grp-high_v_low-alpha-05.csv")
+```
+
+
+##### Viz
+
+> Transform raw count data
+
+```{r}
+vsd <- vst(dds2, blind = FALSE)
+head(assay(vsd),3)
+```
+
+
+###### PCA
+```{r}
+plotPCA(vsd, intgroup=c("fix_grp"))
+```
+
+###### Dispersion Estimates
+```{r}
+plotDispEsts(dds2)
+```
+
+
+#### LFCShrink
+
+```{r}
+resultsNames(dds2)
+```
+
+```{r}
+resLFC <- lfcShrink(dds2,
+                    coef = "fix_grp_High_vs_Low",
+                    type = "apeglm",
+                    parallel = TRUE,
+                    BPPARAM = MulticoreParam(6))
+resLFC
+```
+
+```{r}
+plotMA(resLFC, ylim=c(-10,20))
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

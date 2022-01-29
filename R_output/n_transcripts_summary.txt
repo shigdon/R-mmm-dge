@@ -1,0 +1,18 @@
+sample	soil	ndfa_grp	n_transcripts	n_transcripts_0.95_clst	p_original	p_reduction	n_input_readpairs_bp	n_input_readpairs_Mbp
+CM-19	Zosimo field	Low	63964	59436	92.92	7.08	41333274	41.3
+CM-20	Zosimo field	Low	125035	115453	92.34	7.66	82346965	82.3
+CM-21	Zosimo field	Low	65422	60393	92.31	7.69	30772066	30.8
+CM-22	Zosimo field	High	20500	18322	89.38	10.62	6181902	6.2
+CM-23	Zosimo field	High	106747	98392	92.17	7.83	122675288	122.7
+CM-24	Zosimo field	High	53173	48743	91.67	8.33	14552028	14.6
+CM-25	Zosimo field	High	33934	30053	88.56	11.44	12727217	12.7
+CM-30	Zosimo Pot	Low	46619	42882	91.98	8.02	43418397	43.4
+CM-31	Zosimo Pot	High	37174	34812	93.65	6.35	5759416	5.8
+CM-32	Zosimo Pot	High	65915	58568	88.85	11.15	27751507	27.8
+CM-33	Zosimo Pot	High	85538	78949	92.3	7.7	19022483	19
+								
+					91.47	8.53		
+								
+								
+CM-34	Pot	Low					436272491	436.3
+CM-37	Field	CARMITA					81737443	81.7
