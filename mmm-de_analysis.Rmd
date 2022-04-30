@@ -60,7 +60,7 @@ read_quant <- function (value) {
 }
 
 # make list of CDHIT threshold values used to aggregate each sample denovo txome into a single txome
-thresholds <- c("0.95", "0.98", "1")
+thresholds <- c("0.95", "0.98", "1", "host") # host CDHIT threshold = 1
 
 # execute the function on all 3 datasets
 for (i in thresholds) {
@@ -183,7 +183,7 @@ summary(de1)
 
 
 
-### DESeq2
+### DESeq2-Microbe
 
 #### Format data
 
@@ -280,10 +280,17 @@ head(resSig01, n=10)
 
 ```
 
-##### Export Transcript List
+##### Export Transcript List and DEG list
 
 ```{r}
-write.csv(as.data.frame(resSig05),
+resSig05_df <- as.data.frame(subset(resOrdered, padj < 0.05))
+
+# Transcript list
+resSig05_txids <- data.frame(tx_id = rownames(resSig05_df))
+write_tsv(resSig05_txids, "R_output/deseq2-fix_grp-high_v_low-alpha-05-txids.tsv", col_names = FALSE)
+
+# DEG List
+write.csv(resSig05_df,
           file = "R_output/deseq2-fix_grp-high_v_low-alpha-05.csv")
 ```
 
@@ -329,6 +336,113 @@ plotMA(resLFC, ylim=c(-10,20))
 ```
 
 
+### DESeq2-Host
+
+#### Format data
+
+>  __Critical for column name order of count matrix and row name in column metadata table are in conserved order.__
+
+```{r}
+
+# define raw count matrix
+host_cts <- as.data.frame(count_host_df.wide, row.names = count_host_df.wide$transcript)[,2:7]
+host_cts.mat <- as.matrix(host_cts)
+head(host_cts.mat, 2)
+
+# define sample data (coldata) data frame
+coldata <- sample.map %>% select(sample, fix_grp, var)
+coldata <- as.data.frame(coldata)
+rownames(coldata) <- coldata$sample
+coldata <- coldata[,-1]
+coldata$fix_grp <- factor(coldata$fix_grp)
+coldata$var <- factor(coldata$var)
+str(coldata)
+
+# test sample order in count matrix and coldata table
+all(rownames(coldata) %in% colnames(host_cts.mat))
+all(rownames(coldata) == colnames(host_cts.mat))
+```
+
+#### Create DESeq Dataset
+
+```{r}
+host_dds <- DESeqDataSetFromMatrix(countData = round(host_cts.mat),
+                              colData = coldata,
+                              design = ~ fix_grp)
+host_dds
+```
+
+#### Pre-filtering
+
+> Keep rows (transcripts) that have at least 10 reads total
+
+```{r}
+host_keep <- rowSums(counts(host_dds)) >= 10
+host_dds2 <- host_dds[host_keep,]
+```
+
+> Resulting reduction from 257935 to 100733 transcripts with ≥ 10 total counts across 6 samples
+
+#### DE Analysis
+
+> Alpha = 0.05
+
+```{r}
+host_dds3 <- DESeq(host_dds2) #, parallel = TRUE, BPPARAM = MulticoreParam(6))
+
+# calculate results at alpha = 0.05
+host_res <- results(host_dds3,
+               contrast=c("fix_grp","High","Low"),
+               alpha = 0.05)
+host_res
+```
+
+##### Summary
+
+```{r}
+summary(host_res)
+sum(host_res$padj < 0.05, na.rm = TRUE)
+
+mcols(host_res)$description
+```
+
+> 369 transcripts with p-adj values less than 0.05, implying 369 transcripts of 100733 have high confidence LFC values across High and Low N-fixation phenotypic conditions.
+
+##### Explore Results
+
+```{r}
+plotMA(host_res, ylim=c(-30,30))
+```
+
+##### Rank transcripts
+
+> reorder the list of transcript LFC results based on p-adj values
+
+```{r}
+host_resOrdered <- host_res[order(host_res$padj),]
+
+host_resSig05 <- subset(host_resOrdered, padj < 0.05)
+
+host_resSig01 <- as.data.frame(subset(host_resOrdered, padj < 0.01))
+nrow(host_resSig01)
+head(host_resSig01, n=10)
+
+
+```
+
+##### Export Transcript List and DEG list
+
+```{r}
+host_resSig05_df <- as.data.frame(subset(host_resOrdered, padj < 0.05))
+
+# Transcript list
+host_resSig05_txids <- data.frame(tx_id = rownames(host_resSig05_df))
+write_tsv(host_resSig05_txids, "R_output/deseq2-fix_grp-high_v_low-alpha-05-host_txids.tsv", col_names = FALSE)
+
+# DEG List
+write.csv(host_resSig05_df,
+          file = "R_output/deseq2-fix_grp-high_v_low-alpha-05-host_dge.csv")
+```
 
 
 
@@ -339,6 +453,185 @@ plotMA(resLFC, ylim=c(-10,20))
 
 
 
+### Translate Sequences
+
+> Import subset fasta with `Biostrings` and translate each sequence, generating multi amino acid fasta file.
+
+```{r}
+library(Biostrings)
+```
+
+#### Microbe
+```{r}
+# read in nucleotide sequences
+transcripts <- readDNAStringSet("cdhit-1_high-v-low_alpha05_sigDE_transcripts.fasta", format = "fasta")
+```
+
+```{r, warning=FALSE}
+transcripts_aa <- translate(transcripts, no.init.codon = TRUE)
+
+writeXStringSet(transcripts_aa, "cdhit-1_high-v-low_alpha05_sigDE_transcripts.faa", format = "fasta")
+
+```
+
+#### Host
+```{r}
+# read in nucleotide sequences
+host_transcripts <- readDNAStringSet("cdhit-1_high-v-low_alpha05_sigDE_host-transcripts.fasta", format = "fasta")
+```
+
+```{r, warning=FALSE}
+host_transcripts_aa <- translate(host_transcripts, no.init.codon = TRUE)
+
+writeXStringSet(host_transcripts_aa, "cdhit-1_high-v-low_alpha05_sigDE_host-transcripts.faa", format = "fasta")
+
+```
+
+### DBCAN Analysis Results
+
+> Read in results from `dbcan3` analysis and assess.
+
+```{r}
+dbcan_df <- read_tsv("dbcan_out/overview.txt", col_names = T)
 
 
+```
 
+
+### EGGNOG Analysis
+
+
+__Command__
+
+```
+emapper.py \
+  -m diamond \
+  --itype CDS \
+  -i cdhit-1_high-v-low_alpha05_sigDE_transcripts.fasta \
+  -o test \
+  --data_dir ../../eggnog-db \
+  --output_dir eggnog \
+  --cpu 12
+```
+
+> Read in annotation file
+
+```{r}
+eggnog_df <- read_tsv("eggnog_out/test.emapper.annotations", col_names = T, skip = 4)
+```
+
+```{r}
+colnames(eggnog_df)
+```
+
+
+```{r}
+eggnog_df$log2FC <- resSig05_df$log2FoldChange[match(eggnog_df$`#query`, row.names(resSig05_df))]
+
+eggnog_df <- eggnog_df %>%
+  rename( "#query" = "query_id")
+
+eggnog_df2 <- eggnog_df %>% select(query_id, log2FC, seed_ortholog,
+                                   evalue, score, eggNOG_OGs, max_annot_lvl,
+                                   COG_category, Description, Preferred_name, GOs,
+                                   EC, KEGG_ko, KEGG_Pathway, KEGG_Module, KEGG_Reaction, KEGG_rclass, BRITE, KEGG_TC, CAZy,
+                                   BiGG_Reaction, PFAMs)
+
+write_csv(eggnog_df2, "R_output/eggnog-mapper-annotations_diamond-only_cdhit-1_high-v-low_SigDEG_alpha05.csv", col_names = T)
+```
+
+
+### Enrichment Analysis
+
+#### Libs
+```{r, message=FALSE}
+library(clusterProfiler)
+library(enrichplot)
+library(data.table)
+library(KEGGREST)
+```
+
+
+#### KO
+```{r}
+# get columns with protein IDs and corresponding KO numbers
+kegg_data <- eggnog_df[c(1,12)]
+```
+
+
+### NIFSCAN Query
+
+* Custom database was generated by scanning the 3.3 million predicted coding sequences from 607 mucialge isolate WGS assemblies against a collection of TIGRFAM pHMMs corresponding to genes associated with nitrogen fixation.
+
+* This resulted in ~62K genes with hits to NIF Tigrfams
+
+* These 62K genes were used to generate a custom sequence database for use with Diamond
+
+* Querying 580 significant De transcripts from mucilage against the database resulted in 759 HSPs
+
+* 44 of 580 DE transcripts were included among the 759 HSPs
+
+* 547 unique database targets constituted the 759 HSPs
+
+* These 547 targets were derived from 339 distinct isolate WGS assemblies
+
+* These 339 isolate WGS were classified under 31 different genera
+
+#### Read in Data
+
+```{r}
+# read in TIGRFAM map file
+tigrmap <- read_tsv("./metadata/nif_tigrfam_map.tsv", col_names = T, col_types = "cc")
+
+# read in diamond query results
+nifquery_results <- read_tsv("./diamond/nif_query/hi-lo_alpha05_sigDE-txn_iso-nif-diamond-out.tsv",
+                               col_names = T)
+
+# read in nifscan results corresponding to diamond nifquery target gene ids
+nifscan_results <- read_tsv("./diamond/nif_query/isonif_hsp-target-nifscan_hits-subset.tsv",
+                            col_names = T)
+
+# read in isolate id map
+nifquery_isolate_taxa <- read_csv("./diamond/nif_query/isolate-id_map.csv", col_names = T)
+
+```
+
+#### Merge Data
+```{r}
+# clone diamond out
+isonif_df <- nifquery_results
+
+# add TIGRFAM match for each db subject_id
+isonif_df$TIGRFAM <- nifscan_results$Family[match(isonif_df$subject_ID, nifscan_results$Query_ID)]
+
+# add TIGRFAM model description
+isonif_df$Model <- tigrmap$Model[match(isonif_df$TIGRFAM, tigrmap$TIGRFAM)]
+
+# add subject isolate genome id
+isonif_df <- isonif_df %>% mutate(subject_genome = sub("_.*", "", subject_ID))
+
+# add Genome taxonomy info at genus level matching genome taxonomy corresponding to the db gene target
+isonif_df$subject_genus <- nifquery_isolate_taxa$genus[match(isonif_df$subject_genome,
+                                                             nifquery_isolate_taxa$ID)]
+# add "unincorporated" for NA genus annotation
+isonif_df$subject_genus <- isonif_df$subject_genus %>% replace_na("non-single-bin-prok")
+```
+
+#### Clean Data
+```{r}
+# remove TIGRFAMs not related to nitrogen fixation
+isonif_df_trim <- isonif_df %>%
+  filter(TIGRFAM != "TIGR00736" &
+           TIGRFAM != "TIGR00737" &
+           TIGRFAM != "TIGR03798" &
+           TIGRFAM != "TIGR03890" &
+           TIGRFAM != "TIGR04103")
+
+# write to csv file
+write_csv(isonif_df_trim,
+          "./R_output/diamond_DE-transcript_isolate-nifquery_results_with-metadata.csv",
+          col_names = T)
+```
+
+
+### LACTONIF Query

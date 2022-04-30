@@ -1,0 +1,596 @@
+query_ID,subject_ID,p_id_matches,alignment_length,n_mismatches,n_gap_openings,soa_query,eoa_query,soa_subject,eoa_subject,e-val,bitscore,TIGRFAM,Model,subject_genome,subject_genus
+CM_cdhit-1_transcript_2941,BCW-200312_01064,29.6,260,156,8,1381,2121,47,292,1.98e-18,90.9,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200312,Enterococcus
+CM_cdhit-1_transcript_2941,BCW-200130_02723,27.5,280,173,7,1474,2280,270,530,1.71e-17,87.8,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200130,Enterococcus
+CM_cdhit-1_transcript_2941,BCW-200150_00728,30.7,257,159,8,1378,2121,1,247,3.91e-17,86.7,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200150,Lactococcus
+CM_cdhit-1_transcript_2941,BCW-200010_02278,30.7,257,159,8,1378,2121,1,247,6.79e-17,85.9,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200010,unassigned
+CM_cdhit-1_transcript_2941,BCW-200019_04940,30.7,257,159,8,1378,2121,1,247,6.79e-17,85.9,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200019,unassigned
+CM_cdhit-1_transcript_2941,BCW-200042_07724,30.7,257,159,8,1378,2121,1,247,6.79e-17,85.9,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200042,unassigned
+CM_cdhit-1_transcript_2941,BCW-200048_04879,30.7,257,159,8,1378,2121,1,247,6.79e-17,85.9,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200048,unassigned
+CM_cdhit-1_transcript_2941,BCW-200051_00921,30.7,257,159,8,1378,2121,1,247,6.79e-17,85.9,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200051,Lactococcus
+CM_cdhit-1_transcript_2941,BCW-200074_01234,30.7,257,159,8,1378,2121,1,247,6.79e-17,85.9,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200074,unassigned
+CM_cdhit-1_transcript_2941,BCW-200077_02294,30.7,257,159,8,1378,2121,1,247,6.79e-17,85.9,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200077,Lactococcus
+CM_cdhit-1_transcript_2941,BCW-200079_00980,30.7,257,159,8,1378,2121,1,247,6.79e-17,85.9,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200079,unassigned
+CM_cdhit-1_transcript_2941,BCW-200080_01200,30.7,257,159,8,1378,2121,1,247,6.79e-17,85.9,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200080,unassigned
+CM_cdhit-1_transcript_2941,BCW-200121_02107,30.7,257,159,8,1378,2121,1,247,6.79e-17,85.9,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200121,Lactococcus
+CM_cdhit-1_transcript_2941,BCW-200126_00659,30.7,257,159,8,1378,2121,1,247,6.79e-17,85.9,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200126,unassigned
+CM_cdhit-1_transcript_2941,BCW-200127_07037,30.7,257,159,8,1378,2121,1,247,6.79e-17,85.9,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200127,unassigned
+CM_cdhit-1_transcript_2941,BCW-200128_00775,30.7,257,159,8,1378,2121,1,247,6.79e-17,85.9,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200128,Lactococcus
+CM_cdhit-1_transcript_2941,BCW-200131_03315,30.7,257,159,8,1378,2121,1,247,6.79e-17,85.9,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200131,unassigned
+CM_cdhit-1_transcript_2941,BCW-200138_00849,30.7,257,159,8,1378,2121,1,247,6.79e-17,85.9,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200138,Lactococcus
+CM_cdhit-1_transcript_2941,BCW-200175_00747,30.7,257,159,8,1378,2121,1,247,6.79e-17,85.9,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200175,Lactococcus
+CM_cdhit-1_transcript_2941,BCW-200179_04841,30.7,257,159,8,1378,2121,1,247,6.79e-17,85.9,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200179,unassigned
+CM_cdhit-1_transcript_2941,BCW-200180_01120,30.7,257,159,8,1378,2121,1,247,6.79e-17,85.9,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200180,Lactococcus
+CM_cdhit-1_transcript_2941,BCW-200188_01019,30.7,257,159,8,1378,2121,1,247,6.79e-17,85.9,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200188,Lactococcus
+CM_cdhit-1_transcript_2941,BCW-200192_00698,30.7,257,159,8,1378,2121,1,247,6.79e-17,85.9,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200192,Lactococcus
+CM_cdhit-1_transcript_2941,BCW-200196_01689,30.7,257,159,8,1378,2121,1,247,6.79e-17,85.9,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200196,Lactococcus
+CM_cdhit-1_transcript_2941,BCW-200198_02641,30.7,257,159,8,1378,2121,1,247,6.79e-17,85.9,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200198,Lactococcus
+CM_cdhit-1_transcript_5433,BCW-200010_06630,31.5,251,156,5,1551,2270,52,297,5.05e-20,96.3,TIGR02936,"fdxN_nitrog: ferredoxin III, nif-specific",BCW-200010,unassigned
+CM_cdhit-1_transcript_5433,BCW-200042_00778,31.5,251,156,5,1551,2270,52,297,5.05e-20,96.3,TIGR02936,"fdxN_nitrog: ferredoxin III, nif-specific",BCW-200042,unassigned
+CM_cdhit-1_transcript_7163,BCW-200073_03085,31.6,234,153,4,1399,710,44,274,1.59e-25,113,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200073,Pseudomonas
+CM_cdhit-1_transcript_8090,BCW-200993_01901,35,123,76,2,963,601,1,121,1.41e-12,68.9,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200993,Herbaspirillum
+CM_cdhit-1_transcript_8090,BCW-200089_00736,33.3,123,78,2,963,601,1,121,1.94e-11,65.5,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200089,Burkholderia
+CM_cdhit-1_transcript_8090,BCW-200126_01603,34.5,113,70,2,954,622,6,116,4.4e-11,64.3,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200126,unassigned
+CM_cdhit-1_transcript_8090,BCW-200141_00798,34.5,113,70,2,954,622,6,116,4.4e-11,64.3,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200141,Kosakonia
+CM_cdhit-1_transcript_8090,BCW-200178_07961,34.5,113,70,2,954,622,6,116,4.4e-11,64.3,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200178,unassigned
+CM_cdhit-1_transcript_8090,BCW-200179_00837,34.5,113,70,2,954,622,6,116,4.4e-11,64.3,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200179,unassigned
+CM_cdhit-1_transcript_8090,BCW-200181_02310,34.5,113,70,2,954,622,6,116,4.4e-11,64.3,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200181,Kosakonia
+CM_cdhit-1_transcript_8090,BCW-200183_03036,34.5,113,70,2,954,622,6,116,4.4e-11,64.3,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200183,Kosakonia
+CM_cdhit-1_transcript_8090,BCW-200187_00406,34.5,113,70,2,954,622,6,116,4.4e-11,64.3,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200187,Kosakonia
+CM_cdhit-1_transcript_8090,BCW-200189_07276,34.5,113,70,2,954,622,6,116,4.4e-11,64.3,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200189,unassigned
+CM_cdhit-1_transcript_8090,BCW-200194_00274,34.5,113,70,2,954,622,6,116,4.4e-11,64.3,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200194,Kosakonia
+CM_cdhit-1_transcript_8090,BCW-200197_04249,34.5,113,70,2,954,622,6,116,4.4e-11,64.3,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200197,Kosakonia
+CM_cdhit-1_transcript_8090,BCW-200205_05204,34.5,113,70,2,954,622,6,116,4.4e-11,64.3,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200205,unassigned
+CM_cdhit-1_transcript_8090,BCW-200210_03528,34.5,113,70,2,954,622,6,116,4.4e-11,64.3,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200210,Kosakonia
+CM_cdhit-1_transcript_8090,BCW-200214_03874,34.5,113,70,2,954,622,6,116,4.4e-11,64.3,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200214,Kosakonia
+CM_cdhit-1_transcript_8090,BCW-200226_00954,34.5,113,70,2,954,622,6,116,4.4e-11,64.3,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200226,Kosakonia
+CM_cdhit-1_transcript_8090,BCW-200227_00514,34.5,113,70,2,954,622,6,116,4.4e-11,64.3,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200227,Kosakonia
+CM_cdhit-1_transcript_8090,BCW-200060_00655,34.5,113,70,2,954,622,6,116,5.87e-11,63.9,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200060,Metakosakonia
+CM_cdhit-1_transcript_8090,BCW-200162_03716,34.5,113,70,2,954,622,6,116,5.87e-11,63.9,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200162,Metakosakonia
+CM_cdhit-1_transcript_8090,BCW-200168_03327,34.5,113,70,2,954,622,6,116,5.87e-11,63.9,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200168,Metakosakonia
+CM_cdhit-1_transcript_8090,BCW-200302_01979,34.5,113,70,2,954,622,6,116,5.87e-11,63.9,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200302,Metakosakonia
+CM_cdhit-1_transcript_8090,BCW-200307_04443,34.5,113,70,2,954,622,6,116,5.87e-11,63.9,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200307,Metakosakonia
+CM_cdhit-1_transcript_8090,BCW-200308_04179,34.5,113,70,2,954,622,6,116,5.87e-11,63.9,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200308,Metakosakonia
+CM_cdhit-1_transcript_8090,BCW-200509_03353,34.5,113,70,2,954,622,6,116,5.87e-11,63.9,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200509,Metakosakonia
+CM_cdhit-1_transcript_8090,BCW-200516_03687,34.5,113,70,2,954,622,6,116,5.87e-11,63.9,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200516,unassigned
+CM_cdhit-1_transcript_12505,BCW-200215_00062,29,255,164,5,1323,2042,5,257,2.38e-23,100,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200215,Agrobacterium
+CM_cdhit-1_transcript_12505,BCW-200464_01188,29,255,164,5,1323,2042,5,257,2e-22,98.2,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200464,Agrobacterium
+CM_cdhit-1_transcript_12505,BCW-200208_05050,27.5,255,168,5,1323,2042,5,257,3.0700000000000002e-21,94.7,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200208,Agrobacterium
+CM_cdhit-1_transcript_12505,BCW-200328_03890,27.5,255,168,5,1323,2042,5,257,4.16e-21,94.4,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200328,Agrobacterium
+CM_cdhit-1_transcript_12505,BCW-200465_03768,27.1,255,169,5,1323,2042,5,257,4.16e-21,94.4,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200465,Agrobacterium
+CM_cdhit-1_transcript_12505,BCW-200663_03826,27.5,255,168,5,1323,2042,5,257,4.16e-21,94.4,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200663,Agrobacterium
+CM_cdhit-1_transcript_12505,BCW-200705_02706,27.5,255,168,5,1323,2042,5,257,4.16e-21,94.4,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200705,Agrobacterium
+CM_cdhit-1_transcript_12505,BCW-200902_00666,27.5,255,168,5,1323,2042,5,257,4.16e-21,94.4,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200902,Agrobacterium
+CM_cdhit-1_transcript_12505,BCW-200903_00376,27.5,255,168,5,1323,2042,5,257,4.16e-21,94.4,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200903,unassigned
+CM_cdhit-1_transcript_12505,BCW-200904_02360,27.5,255,168,5,1323,2042,5,257,4.16e-21,94.4,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200904,Agrobacterium
+CM_cdhit-1_transcript_12505,BCW-200910_03884,27.5,255,168,5,1323,2042,5,257,4.16e-21,94.4,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200910,Agrobacterium
+CM_cdhit-1_transcript_12505,BCW-200912_01390,27.5,255,168,5,1323,2042,5,257,4.16e-21,94.4,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200912,unassigned
+CM_cdhit-1_transcript_12505,BCW-200920_03039,27.5,255,168,5,1323,2042,5,257,4.16e-21,94.4,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200920,Agrobacterium
+CM_cdhit-1_transcript_12505,BCW-200001_02975,28.6,245,150,8,1338,2051,11,237,1.18e-13,72,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200001,Acidovorax
+CM_cdhit-1_transcript_12505,BCW-200011_02925,28.6,245,150,8,1338,2051,11,237,1.18e-13,72,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200011,Acidovorax
+CM_cdhit-1_transcript_12505,BCW-201813_04308,26.9,253,164,9,1323,2042,36,280,2.93e-13,71.6,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201813,non-single-bin-prok
+CM_cdhit-1_transcript_12505,BCW-201815_01192,26.9,253,164,9,1323,2042,36,280,2.93e-13,71.6,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201815,non-single-bin-prok
+CM_cdhit-1_transcript_12505,BCW-201818_06885,26.9,253,164,9,1323,2042,36,280,2.93e-13,71.6,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201818,non-single-bin-prok
+CM_cdhit-1_transcript_12505,BCW-201823_02084,26.9,253,164,9,1323,2042,36,280,2.93e-13,71.6,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201823,non-single-bin-prok
+CM_cdhit-1_transcript_12505,BCW-201824_06661,26.9,253,164,9,1323,2042,36,280,2.93e-13,71.6,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201824,non-single-bin-prok
+CM_cdhit-1_transcript_12505,BCW-201825_05320,26.9,253,164,9,1323,2042,36,280,2.93e-13,71.6,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201825,non-single-bin-prok
+CM_cdhit-1_transcript_12505,BCW-201830_03189,26.9,253,164,9,1323,2042,36,280,2.93e-13,71.6,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201830,non-single-bin-prok
+CM_cdhit-1_transcript_12505,BCW-201834_01428,26.9,253,164,9,1323,2042,36,280,2.93e-13,71.6,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201834,non-single-bin-prok
+CM_cdhit-1_transcript_12505,BCW-201836_04438,26.9,253,164,9,1323,2042,36,280,2.93e-13,71.6,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201836,non-single-bin-prok
+CM_cdhit-1_transcript_12505,BCW-201840_04591,26.9,253,164,9,1323,2042,36,280,2.93e-13,71.6,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201840,non-single-bin-prok
+CM_cdhit-1_transcript_21016,BCW-200785_06418,99.2,128,1,0,313,696,1,128,5.320000000000001e-85,257,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200785,Pseudomonas
+CM_cdhit-1_transcript_21016,BCW-201290_01217,99.2,128,1,0,313,696,1,128,5.320000000000001e-85,257,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-201290,Pseudomonas
+CM_cdhit-1_transcript_21016,BCW-201902_05797,99.2,128,1,0,313,696,1,128,7.52e-85,256,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-201902,unassigned
+CM_cdhit-1_transcript_21016,BCW-201859_01399,98.4,128,2,0,313,696,1,128,4.25e-84,254,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-201859,Pseudomonas
+CM_cdhit-1_transcript_21016,BCW-201868_03531,98.4,128,2,0,313,696,1,128,4.25e-84,254,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-201868,Pseudomonas
+CM_cdhit-1_transcript_21016,BCW-201875_01973,98.4,128,2,0,313,696,1,128,4.25e-84,254,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-201875,Pseudomonas
+CM_cdhit-1_transcript_21016,BCW-201947_01955,98.4,128,2,0,313,696,1,128,4.25e-84,254,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-201947,Pseudomonas
+CM_cdhit-1_transcript_21016,BCW-200010_00831,97.7,128,3,0,313,696,1,128,6.02e-84,254,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200010,unassigned
+CM_cdhit-1_transcript_21016,BCW-200042_00275,97.7,128,3,0,313,696,1,128,6.02e-84,254,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200042,unassigned
+CM_cdhit-1_transcript_21016,BCW-200046_02962,97.7,128,3,0,313,696,1,128,6.02e-84,254,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200046,Pseudomonas
+CM_cdhit-1_transcript_21016,BCW-200058_04155,97.7,128,3,0,313,696,1,128,6.02e-84,254,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200058,Pseudomonas
+CM_cdhit-1_transcript_21016,BCW-200211_01406,97.7,128,3,0,313,696,1,128,6.02e-84,254,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200211,Pseudomonas
+CM_cdhit-1_transcript_21016,BCW-200073_02326,97.7,128,3,0,313,696,1,128,1.2e-83,253,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200073,Pseudomonas
+CM_cdhit-1_transcript_21016,BCW-200432_03967,97.7,128,3,0,313,696,1,128,1.2e-83,253,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200432,Pseudomonas
+CM_cdhit-1_transcript_21016,BCW-200436_02047,97.7,128,3,0,313,696,1,128,1.2e-83,253,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200436,Pseudomonas
+CM_cdhit-1_transcript_21016,BCW-200458_02533,97.7,128,3,0,313,696,1,128,1.2e-83,253,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200458,Pseudomonas
+CM_cdhit-1_transcript_21016,BCW-200460_03587,97.7,128,3,0,313,696,1,128,1.2e-83,253,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200460,Pseudomonas
+CM_cdhit-1_transcript_21016,BCW-200599_00846,97.7,128,3,0,313,696,1,128,1.2e-83,253,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200599,Pseudomonas
+CM_cdhit-1_transcript_21016,BCW-200621_03321,97.7,128,3,0,313,696,1,128,1.2e-83,253,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200621,Pseudomonas
+CM_cdhit-1_transcript_21016,BCW-201292_05174,97.7,128,3,0,313,696,1,128,1.2e-83,253,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-201292,Pseudomonas
+CM_cdhit-1_transcript_21016,BCW-201293_01314,97.7,128,3,0,313,696,1,128,1.2e-83,253,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-201293,Pseudomonas
+CM_cdhit-1_transcript_21016,BCW-201862_04169,97.7,128,3,0,313,696,1,128,1.2e-83,253,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-201862,Pseudomonas
+CM_cdhit-1_transcript_21016,BCW-200222_03795,96.9,128,4,0,313,696,1,128,9.61e-83,251,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200222,unassigned
+CM_cdhit-1_transcript_21016,BCW-200471_03142,96.1,128,5,0,313,696,1,128,1.09e-81,248,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200471,Pseudomonas
+CM_cdhit-1_transcript_21016,BCW-200065_02624,95.3,128,6,0,313,696,1,128,3.07e-81,247,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200065,Pseudomonas
+CM_cdhit-1_transcript_22552,BCW-200061_01016,95.9,74,3,0,1,222,144,217,2.88e-29,114,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200061,Serratia
+CM_cdhit-1_transcript_22552,BCW-200526_05136,95.9,74,3,0,1,222,144,217,2.88e-29,114,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200526,unassigned
+CM_cdhit-1_transcript_22552,BCW-201051_03868,95.9,74,3,0,1,222,144,217,2.88e-29,114,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-201051,Serratia
+CM_cdhit-1_transcript_22552,BCW-201054_01282,95.9,74,3,0,1,222,144,217,2.88e-29,114,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-201054,Serratia
+CM_cdhit-1_transcript_22552,BCW-201079_01428,95.9,74,3,0,1,222,144,217,2.88e-29,114,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-201079,Serratia
+CM_cdhit-1_transcript_22552,BCW-201653_02472,95.9,74,3,0,1,222,144,217,2.88e-29,114,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-201653,Serratia
+CM_cdhit-1_transcript_22552,BCW-201662_02105,95.9,74,3,0,1,222,144,217,2.88e-29,114,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-201662,Serratia
+CM_cdhit-1_transcript_22552,BCW-200012_04095,91.9,74,6,0,1,222,144,217,2.82e-28,111,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200012,Enterobacter
+CM_cdhit-1_transcript_22552,BCW-201081_00856,91.9,74,6,0,1,222,144,217,3.9e-28,111,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-201081,Pantoea
+CM_cdhit-1_transcript_22552,BCW-201827_02791,91.9,74,6,0,1,222,144,217,3.9e-28,111,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-201827,Pantoea
+CM_cdhit-1_transcript_22552,BCW-201833_00742,91.9,74,6,0,1,222,144,217,3.9e-28,111,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-201833,Pantoea
+CM_cdhit-1_transcript_22552,BCW-201864_02434,91.9,74,6,0,1,222,144,217,3.9e-28,111,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-201864,Pantoea
+CM_cdhit-1_transcript_22552,BCW-201867_01791,91.9,74,6,0,1,222,144,217,3.9e-28,111,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-201867,Pantoea
+CM_cdhit-1_transcript_22552,BCW-201909_02279,91.9,74,6,0,1,222,144,217,3.9e-28,111,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-201909,Pantoea
+CM_cdhit-1_transcript_22552,BCW-201917_01976,91.9,74,6,0,1,222,144,217,3.9e-28,111,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-201917,Pantoea
+CM_cdhit-1_transcript_22552,BCW-201997_01048,91.9,74,6,0,1,222,144,217,3.9e-28,111,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-201997,Pantoea
+CM_cdhit-1_transcript_22552,BCW-202001_00815,91.9,74,6,0,1,222,144,217,3.9e-28,111,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-202001,Pantoea
+CM_cdhit-1_transcript_22552,BCW-200115_02130,78.4,74,16,0,1,222,144,217,1.0300000000000001e-27,110,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200115,Morganella
+CM_cdhit-1_transcript_22552,BCW-200060_03082,87.8,74,9,0,1,222,144,217,2.7400000000000002e-27,108,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200060,Metakosakonia
+CM_cdhit-1_transcript_22552,BCW-200162_02826,87.8,74,9,0,1,222,144,217,2.7400000000000002e-27,108,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200162,Metakosakonia
+CM_cdhit-1_transcript_22552,BCW-200168_01811,87.8,74,9,0,1,222,144,217,2.7400000000000002e-27,108,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200168,Metakosakonia
+CM_cdhit-1_transcript_22552,BCW-200302_01557,87.8,74,9,0,1,222,144,217,2.7400000000000002e-27,108,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200302,Metakosakonia
+CM_cdhit-1_transcript_22552,BCW-200307_03373,87.8,74,9,0,1,222,144,217,2.7400000000000002e-27,108,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200307,Metakosakonia
+CM_cdhit-1_transcript_22552,BCW-200308_03966,87.8,74,9,0,1,222,144,217,2.7400000000000002e-27,108,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200308,Metakosakonia
+CM_cdhit-1_transcript_22552,BCW-200508_03146,87.8,74,9,0,1,222,144,217,2.7400000000000002e-27,108,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200508,unassigned
+CM_cdhit-1_transcript_26279,BCW-200166_04602,27.6,297,181,13,885,37,5,281,3.15e-9,58.9,TIGR02000,NifU_proper: Fe-S cluster assembly protein NifU,BCW-200166,unassigned
+CM_cdhit-1_transcript_28828,BCW-200533_04481,39.9,223,122,7,247,894,42,259,8.35e-38,140,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200533,Rhodococcus
+CM_cdhit-1_transcript_28828,BCW-200312_01064,35.9,234,141,6,208,891,63,293,5.35e-36,137,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200312,Enterococcus
+CM_cdhit-1_transcript_28828,BCW-200130_02723,35.9,234,140,7,208,891,20,249,7.77e-35,134,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200130,Enterococcus
+CM_cdhit-1_transcript_28828,BCW-200010_02278,36,225,136,5,247,906,264,485,1.4299999999999998e-34,133,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200010,unassigned
+CM_cdhit-1_transcript_28828,BCW-200019_04940,36,225,136,5,247,906,264,485,1.4299999999999998e-34,133,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200019,unassigned
+CM_cdhit-1_transcript_28828,BCW-200042_07724,36,225,136,5,247,906,264,485,1.4299999999999998e-34,133,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200042,unassigned
+CM_cdhit-1_transcript_28828,BCW-200048_04879,36,225,136,5,247,906,264,485,1.4299999999999998e-34,133,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200048,unassigned
+CM_cdhit-1_transcript_28828,BCW-200051_00921,36,225,136,5,247,906,264,485,1.4299999999999998e-34,133,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200051,Lactococcus
+CM_cdhit-1_transcript_28828,BCW-200074_01234,36,225,136,5,247,906,264,485,1.4299999999999998e-34,133,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200074,unassigned
+CM_cdhit-1_transcript_28828,BCW-200077_02294,36,225,136,5,247,906,264,485,1.4299999999999998e-34,133,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200077,Lactococcus
+CM_cdhit-1_transcript_28828,BCW-200079_00980,36,225,136,5,247,906,264,485,1.4299999999999998e-34,133,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200079,unassigned
+CM_cdhit-1_transcript_28828,BCW-200080_01200,36,225,136,5,247,906,264,485,1.4299999999999998e-34,133,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200080,unassigned
+CM_cdhit-1_transcript_28828,BCW-200121_02107,36,225,136,5,247,906,264,485,1.4299999999999998e-34,133,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200121,Lactococcus
+CM_cdhit-1_transcript_28828,BCW-200126_00659,36,225,136,5,247,906,264,485,1.4299999999999998e-34,133,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200126,unassigned
+CM_cdhit-1_transcript_28828,BCW-200127_07037,36,225,136,5,247,906,264,485,1.4299999999999998e-34,133,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200127,unassigned
+CM_cdhit-1_transcript_28828,BCW-200128_00775,36,225,136,5,247,906,264,485,1.4299999999999998e-34,133,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200128,Lactococcus
+CM_cdhit-1_transcript_28828,BCW-200131_03315,36,225,136,5,247,906,264,485,1.4299999999999998e-34,133,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200131,unassigned
+CM_cdhit-1_transcript_28828,BCW-200138_00849,36,225,136,5,247,906,264,485,1.4299999999999998e-34,133,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200138,Lactococcus
+CM_cdhit-1_transcript_28828,BCW-200150_00728,36,225,136,5,247,906,264,485,1.4299999999999998e-34,133,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200150,Lactococcus
+CM_cdhit-1_transcript_28828,BCW-200175_00747,36,225,136,5,247,906,264,485,1.4299999999999998e-34,133,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200175,Lactococcus
+CM_cdhit-1_transcript_28828,BCW-200179_04841,36,225,136,5,247,906,264,485,1.4299999999999998e-34,133,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200179,unassigned
+CM_cdhit-1_transcript_28828,BCW-200180_01120,36,225,136,5,247,906,264,485,1.4299999999999998e-34,133,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200180,Lactococcus
+CM_cdhit-1_transcript_28828,BCW-200188_01019,36,225,136,5,247,906,264,485,1.4299999999999998e-34,133,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200188,Lactococcus
+CM_cdhit-1_transcript_28828,BCW-200192_00698,36,225,136,5,247,906,264,485,1.4299999999999998e-34,133,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200192,Lactococcus
+CM_cdhit-1_transcript_28828,BCW-200196_01689,36,225,136,5,247,906,264,485,1.4299999999999998e-34,133,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200196,Lactococcus
+CM_cdhit-1_transcript_40574,BCW-200073_03085,26.4,220,146,7,2080,1433,57,264,1.38e-5,50.1,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200073,Pseudomonas
+CM_cdhit-1_transcript_48023,BCW-200215_00062,25.4,177,125,2,1075,557,5,178,2.58e-9,58.2,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200215,Agrobacterium
+CM_cdhit-1_transcript_48023,BCW-200208_05050,25.4,177,125,2,1075,557,5,178,1.52e-8,55.8,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200208,Agrobacterium
+CM_cdhit-1_transcript_48023,BCW-200465_03768,25.4,177,125,2,1075,557,5,178,1.52e-8,55.8,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200465,Agrobacterium
+CM_cdhit-1_transcript_48023,BCW-200328_03890,25.4,177,125,2,1075,557,5,178,2.04e-8,55.5,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200328,Agrobacterium
+CM_cdhit-1_transcript_48023,BCW-200663_03826,25.4,177,125,2,1075,557,5,178,2.04e-8,55.5,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200663,Agrobacterium
+CM_cdhit-1_transcript_48023,BCW-200705_02706,25.4,177,125,2,1075,557,5,178,2.04e-8,55.5,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200705,Agrobacterium
+CM_cdhit-1_transcript_48023,BCW-200902_00666,25.4,177,125,2,1075,557,5,178,2.04e-8,55.5,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200902,Agrobacterium
+CM_cdhit-1_transcript_48023,BCW-200903_00376,25.4,177,125,2,1075,557,5,178,2.04e-8,55.5,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200903,unassigned
+CM_cdhit-1_transcript_48023,BCW-200904_02360,25.4,177,125,2,1075,557,5,178,2.04e-8,55.5,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200904,Agrobacterium
+CM_cdhit-1_transcript_48023,BCW-200910_03884,25.4,177,125,2,1075,557,5,178,2.04e-8,55.5,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200910,Agrobacterium
+CM_cdhit-1_transcript_48023,BCW-200912_01390,25.4,177,125,2,1075,557,5,178,2.04e-8,55.5,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200912,unassigned
+CM_cdhit-1_transcript_48023,BCW-200920_03039,25.4,177,125,2,1075,557,5,178,2.04e-8,55.5,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200920,Agrobacterium
+CM_cdhit-1_transcript_48023,BCW-200464_01188,24.3,177,127,2,1075,557,5,178,2.88e-7,52,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200464,Agrobacterium
+CM_cdhit-1_transcript_250797,BCW-200471_03157,24,362,265,8,1175,105,23,379,3.42e-26,115,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200471,Pseudomonas
+CM_cdhit-1_transcript_250797,BCW-200068_03997,23.8,362,266,8,1175,105,23,379,4.6e-26,115,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200068,Pseudomonas
+CM_cdhit-1_transcript_250797,BCW-200267_05976,23.8,362,266,8,1175,105,23,379,4.6e-26,115,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200267,Pseudomonas
+CM_cdhit-1_transcript_250797,BCW-200476_04576,23.8,362,266,8,1175,105,23,379,4.6e-26,115,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200476,Pseudomonas
+CM_cdhit-1_transcript_250797,BCW-200497_04909,23.8,362,266,8,1175,105,23,379,4.6e-26,115,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200497,Pseudomonas
+CM_cdhit-1_transcript_250797,BCW-200498_05074,23.8,362,266,8,1175,105,23,379,4.6e-26,115,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200498,unassigned
+CM_cdhit-1_transcript_250797,BCW-200516_03456,23.8,362,266,8,1175,105,23,379,4.6e-26,115,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200516,unassigned
+CM_cdhit-1_transcript_250797,BCW-200526_03723,23.8,362,266,8,1175,105,23,379,4.6e-26,115,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200526,unassigned
+CM_cdhit-1_transcript_250797,BCW-200527_05293,23.8,362,266,8,1175,105,23,379,4.6e-26,115,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200527,Pseudomonas
+CM_cdhit-1_transcript_250797,BCW-200528_02542,23.8,362,266,8,1175,105,23,379,4.6e-26,115,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200528,Pseudomonas
+CM_cdhit-1_transcript_250797,BCW-200588_03742,23.8,362,266,8,1175,105,23,379,4.6e-26,115,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200588,Pseudomonas
+CM_cdhit-1_transcript_250797,BCW-200607_03907,23.8,362,266,8,1175,105,23,379,4.6e-26,115,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200607,Pseudomonas
+CM_cdhit-1_transcript_250797,BCW-200790_05033,23.8,362,266,8,1175,105,23,379,4.6e-26,115,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200790,Pseudomonas
+CM_cdhit-1_transcript_250797,BCW-200791_00971,23.8,362,266,8,1175,105,23,379,4.6e-26,115,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200791,Pseudomonas
+CM_cdhit-1_transcript_250797,BCW-200290_05237,24.5,367,257,9,1175,105,23,379,6.200000000000001e-26,114,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200290,Pseudomonas
+CM_cdhit-1_transcript_250797,BCW-200010_00816,23.9,364,263,9,1175,105,23,379,1.51e-25,113,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200010,unassigned
+CM_cdhit-1_transcript_250797,BCW-200042_00290,23.9,364,263,9,1175,105,23,379,1.51e-25,113,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200042,unassigned
+CM_cdhit-1_transcript_250797,BCW-200048_00905,24.3,367,258,9,1175,105,23,379,1.51e-25,113,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200048,unassigned
+CM_cdhit-1_transcript_250797,BCW-200056_00222,24.3,367,258,9,1175,105,23,379,1.51e-25,113,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200056,Pseudomonas
+CM_cdhit-1_transcript_250797,BCW-200222_03810,23.9,364,263,9,1175,105,23,379,1.51e-25,113,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200222,unassigned
+CM_cdhit-1_transcript_250797,BCW-200443_03463,24.3,367,258,9,1175,105,23,379,1.51e-25,113,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200443,Pseudomonas
+CM_cdhit-1_transcript_250797,BCW-200211_04085,23.9,364,263,9,1175,105,23,379,4.97e-25,112,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200211,Pseudomonas
+CM_cdhit-1_transcript_250797,BCW-201868_03546,23.9,364,265,9,1178,105,22,379,1.63e-24,110,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-201868,Pseudomonas
+CM_cdhit-1_transcript_250797,BCW-201859_01384,23.9,364,265,9,1178,105,22,379,2.9499999999999997e-24,109,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-201859,Pseudomonas
+CM_cdhit-1_transcript_250797,BCW-201875_01958,23.9,364,265,9,1178,105,22,379,2.9499999999999997e-24,109,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-201875,Pseudomonas
+CM_cdhit-1_transcript_326033,BCW-200073_03085,26.1,234,155,3,253,927,52,276,2.4e-19,90.1,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200073,Pseudomonas
+CM_cdhit-1_transcript_326951,BCW-200066_03660,28.2,174,113,4,23,526,9,176,4.58e-13,65.5,TIGR02663,nifX: nitrogen fixation protein NifX,BCW-200066,Atlantibacter
+CM_cdhit-1_transcript_326951,BCW-200073_01091,34.2,79,46,2,14,250,9,81,6.91e-7,48.5,TIGR02929,"anfG_nitrog: Fe-only nitrogenase, delta subunit",BCW-200073,Pseudomonas
+CM_cdhit-1_transcript_328120,BCW-200073_03085,27.7,224,140,5,6,620,34,254,5.29e-18,85.1,TIGR01581,Mo_ABC_porter: NifC-like ABC-type porter,BCW-200073,Pseudomonas
+CM_cdhit-1_transcript_328578,BCW-200115_01714,59.7,72,29,0,216,1,164,235,7.66e-25,96.7,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200115,Morganella
+CM_cdhit-1_transcript_328578,BCW-200552_02867,60,75,29,1,222,1,224,298,7.76e-24,94,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200552,Rahnella
+CM_cdhit-1_transcript_328578,BCW-200559_04252,60,75,29,1,222,1,224,298,7.76e-24,94,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200559,Rahnella
+CM_cdhit-1_transcript_328578,BCW-200578_01453,60,75,29,1,222,1,224,298,7.76e-24,94,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200578,Rahnella
+CM_cdhit-1_transcript_328578,BCW-200644_00582,60,75,29,1,222,1,224,298,7.76e-24,94,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200644,Rahnella
+CM_cdhit-1_transcript_328578,BCW-200647_00172,60,75,29,1,222,1,224,298,7.76e-24,94,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200647,Rahnella
+CM_cdhit-1_transcript_328578,BCW-200650_01756,60,75,29,1,222,1,224,298,7.76e-24,94,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200650,Rahnella
+CM_cdhit-1_transcript_328578,BCW-200797_02878,60,75,29,1,222,1,224,298,7.76e-24,94,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200797,Rahnella
+CM_cdhit-1_transcript_328578,BCW-200798_03501,60,75,29,1,222,1,224,298,7.76e-24,94,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200798,Rahnella
+CM_cdhit-1_transcript_328578,BCW-200800_03362,60,75,29,1,222,1,224,298,7.76e-24,94,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200800,Rahnella
+CM_cdhit-1_transcript_328578,BCW-200801_03604,60,75,29,1,222,1,224,298,7.76e-24,94,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200801,Rahnella
+CM_cdhit-1_transcript_328578,BCW-200818_03159,60,75,29,1,222,1,224,298,7.76e-24,94,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200818,Rahnella
+CM_cdhit-1_transcript_328578,BCW-200821_02286,60,75,29,1,222,1,224,298,7.76e-24,94,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200821,Rahnella
+CM_cdhit-1_transcript_328578,BCW-200828_03251,60,75,29,1,222,1,224,298,7.76e-24,94,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200828,Rahnella
+CM_cdhit-1_transcript_328578,BCW-201059_03155,60,75,29,1,222,1,224,298,7.76e-24,94,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201059,Rahnella
+CM_cdhit-1_transcript_328578,BCW-201070_00026,60,75,29,1,222,1,224,298,7.76e-24,94,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201070,Rahnella
+CM_cdhit-1_transcript_328578,BCW-201088_01715,60,75,29,1,222,1,224,298,7.76e-24,94,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201088,Rahnella
+CM_cdhit-1_transcript_328578,BCW-201091_02638,60,75,29,1,222,1,224,298,7.76e-24,94,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201091,Rahnella
+CM_cdhit-1_transcript_328578,BCW-201162_02183,60,75,29,1,222,1,224,298,7.76e-24,94,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201162,Rahnella
+CM_cdhit-1_transcript_328578,BCW-201184_03147,60,75,29,1,222,1,224,298,7.76e-24,94,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201184,Rahnella
+CM_cdhit-1_transcript_328578,BCW-201259_00191,60,75,29,1,222,1,224,298,7.76e-24,94,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201259,Rahnella
+CM_cdhit-1_transcript_328578,BCW-201297_03542,60,75,29,1,222,1,224,298,7.76e-24,94,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201297,Rahnella
+CM_cdhit-1_transcript_328578,BCW-201302_00099,60,75,29,1,222,1,224,298,7.76e-24,94,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201302,Rahnella
+CM_cdhit-1_transcript_328578,BCW-201303_03435,60,75,29,1,222,1,224,298,7.76e-24,94,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201303,Rahnella
+CM_cdhit-1_transcript_328578,BCW-201304_00148,60,75,29,1,222,1,224,298,7.76e-24,94,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201304,Rahnella
+CM_cdhit-1_transcript_328657,BCW-200464_01188,27.1,192,121,5,20,556,8,193,9.14e-13,67.8,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200464,Agrobacterium
+CM_cdhit-1_transcript_328657,BCW-200215_00062,25.5,188,129,3,20,556,8,193,3.11e-12,66.2,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200215,Agrobacterium
+CM_cdhit-1_transcript_328657,BCW-200208_05050,24.5,188,131,3,20,556,8,193,1.43e-11,64.3,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200208,Agrobacterium
+CM_cdhit-1_transcript_328657,BCW-200465_03768,23.9,188,132,3,20,556,8,193,1.94e-11,63.9,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200465,Agrobacterium
+CM_cdhit-1_transcript_328657,BCW-200328_03890,23.9,188,132,3,20,556,8,193,6.53e-11,62.4,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200328,Agrobacterium
+CM_cdhit-1_transcript_328657,BCW-200663_03826,23.9,188,132,3,20,556,8,193,6.53e-11,62.4,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200663,Agrobacterium
+CM_cdhit-1_transcript_328657,BCW-200705_02706,23.9,188,132,3,20,556,8,193,6.53e-11,62.4,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200705,Agrobacterium
+CM_cdhit-1_transcript_328657,BCW-200902_00666,23.9,188,132,3,20,556,8,193,6.53e-11,62.4,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200902,Agrobacterium
+CM_cdhit-1_transcript_328657,BCW-200903_00376,23.9,188,132,3,20,556,8,193,6.53e-11,62.4,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200903,unassigned
+CM_cdhit-1_transcript_328657,BCW-200904_02360,23.9,188,132,3,20,556,8,193,6.53e-11,62.4,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200904,Agrobacterium
+CM_cdhit-1_transcript_328657,BCW-200910_03884,23.9,188,132,3,20,556,8,193,6.53e-11,62.4,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200910,Agrobacterium
+CM_cdhit-1_transcript_328657,BCW-200912_01390,23.9,188,132,3,20,556,8,193,6.53e-11,62.4,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200912,unassigned
+CM_cdhit-1_transcript_328657,BCW-200920_03039,23.9,188,132,3,20,556,8,193,6.53e-11,62.4,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200920,Agrobacterium
+CM_cdhit-1_transcript_328657,BCW-200011_02925,25.3,221,145,6,26,682,11,213,8.17e-10,58.9,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200011,Acidovorax
+CM_cdhit-1_transcript_328657,BCW-200001_02975,25.3,221,145,6,26,682,11,213,4.99e-9,56.6,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200001,Acidovorax
+CM_cdhit-1_transcript_329279,BCW-201902_08418,21.7,479,363,8,56,1477,5,476,2.91e-31,126,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-201902,unassigned
+CM_cdhit-1_transcript_329279,BCW-200111_03127,21.7,460,334,9,62,1411,4,447,1.17e-24,107,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200111,Citrobacter
+CM_cdhit-1_transcript_329279,BCW-200031_01131,21.5,460,335,9,62,1411,4,447,3.57e-24,105,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200031,Citrobacter
+CM_cdhit-1_transcript_329279,BCW-200039_08067,21.1,456,342,8,62,1411,4,447,3.57e-24,105,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200039,unassigned
+CM_cdhit-1_transcript_329279,BCW-201173_02339,21.3,456,341,8,62,1411,4,447,8.71e-24,104,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-201173,Escherichia
+CM_cdhit-1_transcript_329279,BCW-201082_06119,21.3,451,347,6,62,1411,4,447,1.5799999999999998e-23,103,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-201082,unassigned
+CM_cdhit-1_transcript_329279,BCW-201083_03567,21.3,451,347,6,62,1411,4,447,1.5799999999999998e-23,103,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-201083,Citrobacter
+CM_cdhit-1_transcript_329279,BCW-201152_04407,21.3,451,347,6,62,1411,4,447,1.5799999999999998e-23,103,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-201152,Citrobacter
+CM_cdhit-1_transcript_329279,BCW-201154_01448,21.3,451,347,6,62,1411,4,447,1.5799999999999998e-23,103,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-201154,Citrobacter
+CM_cdhit-1_transcript_329279,BCW-200176_03233,21.7,483,349,9,62,1480,4,467,1.5899999999999998e-23,103,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200176,Leclercia
+CM_cdhit-1_transcript_329279,BCW-200022_02985,21.1,479,357,8,62,1480,4,467,6.98e-23,102,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200022,unassigned
+CM_cdhit-1_transcript_329279,BCW-200024_02120,21.1,479,357,8,62,1480,4,467,6.98e-23,102,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200024,unassigned
+CM_cdhit-1_transcript_329279,BCW-200231_03895,20.9,479,358,8,62,1480,4,467,6.98e-23,102,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200231,unassigned
+CM_cdhit-1_transcript_329279,BCW-200003_03918,21.1,479,357,8,62,1480,4,467,1.26e-22,101,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200003,Lelliottia
+CM_cdhit-1_transcript_329279,BCW-200033_03625,21.1,479,357,8,62,1480,4,467,1.26e-22,101,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200033,Lelliottia
+CM_cdhit-1_transcript_329279,BCW-200050_01024,21.1,460,337,8,62,1411,4,447,1.26e-22,101,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200050,Enterobacter
+CM_cdhit-1_transcript_329279,BCW-200052_03360,21.1,479,357,8,62,1480,4,467,1.26e-22,101,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200052,unassigned
+CM_cdhit-1_transcript_329279,BCW-200071_02877,21.1,479,357,8,62,1480,4,467,1.26e-22,101,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200071,Lelliottia
+CM_cdhit-1_transcript_329279,BCW-200094_03104,21.2,458,339,8,62,1411,4,447,1.26e-22,101,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200094,unassigned
+CM_cdhit-1_transcript_329279,BCW-200269_00796,21.1,479,357,8,62,1480,4,467,1.26e-22,101,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200269,Lelliottia
+CM_cdhit-1_transcript_329279,BCW-200270_00629,21.1,479,357,8,62,1480,4,467,1.26e-22,101,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200270,Lelliottia
+CM_cdhit-1_transcript_329279,BCW-200271_00683,21.1,479,357,8,62,1480,4,467,1.26e-22,101,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200271,Lelliottia
+CM_cdhit-1_transcript_329279,BCW-200274_06703,21.1,479,357,8,62,1480,4,467,1.26e-22,101,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200274,unassigned
+CM_cdhit-1_transcript_329279,BCW-200275_00900,21.1,479,357,8,62,1480,4,467,1.26e-22,101,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200275,Lelliottia
+CM_cdhit-1_transcript_329279,BCW-200473_00777,21.1,479,357,8,62,1480,4,467,1.26e-22,101,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200473,Lelliottia
+CM_cdhit-1_transcript_331366,BCW-200243_09034,36.4,66,41,1,1272,1078,55,120,9.87e-4,39.7,TIGR02930,"vnfG_nitrog: V-containing nitrogenase, delta subunit",BCW-200243,unassigned
+CM_cdhit-1_transcript_336858,BCW-200208_05050,27,270,182,4,50,844,3,262,5.0300000000000005e-22,96.7,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200208,Agrobacterium
+CM_cdhit-1_transcript_336858,BCW-200465_03768,26.7,270,183,4,50,844,3,262,6.82e-22,96.3,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200465,Agrobacterium
+CM_cdhit-1_transcript_336858,BCW-200328_03890,27,270,182,4,50,844,3,262,9.25e-22,95.9,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200328,Agrobacterium
+CM_cdhit-1_transcript_336858,BCW-200663_03826,27,270,182,4,50,844,3,262,9.25e-22,95.9,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200663,Agrobacterium
+CM_cdhit-1_transcript_336858,BCW-200705_02706,27,270,182,4,50,844,3,262,9.25e-22,95.9,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200705,Agrobacterium
+CM_cdhit-1_transcript_336858,BCW-200902_00666,27,270,182,4,50,844,3,262,9.25e-22,95.9,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200902,Agrobacterium
+CM_cdhit-1_transcript_336858,BCW-200903_00376,27,270,182,4,50,844,3,262,9.25e-22,95.9,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200903,unassigned
+CM_cdhit-1_transcript_336858,BCW-200904_02360,27,270,182,4,50,844,3,262,9.25e-22,95.9,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200904,Agrobacterium
+CM_cdhit-1_transcript_336858,BCW-200910_03884,27,270,182,4,50,844,3,262,9.25e-22,95.9,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200910,Agrobacterium
+CM_cdhit-1_transcript_336858,BCW-200912_01390,27,270,182,4,50,844,3,262,9.25e-22,95.9,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200912,unassigned
+CM_cdhit-1_transcript_336858,BCW-200920_03039,27,270,182,4,50,844,3,262,9.25e-22,95.9,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200920,Agrobacterium
+CM_cdhit-1_transcript_336858,BCW-200215_00062,27.6,268,179,4,56,844,5,262,1.7e-21,95.1,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200215,Agrobacterium
+CM_cdhit-1_transcript_336858,BCW-200464_01188,26.5,268,182,4,56,844,5,262,5.43e-19,87.8,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200464,Agrobacterium
+CM_cdhit-1_transcript_336858,BCW-201813_04308,25.4,280,158,9,56,838,36,283,1.23e-13,72.4,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201813,non-single-bin-prok
+CM_cdhit-1_transcript_336858,BCW-201815_01192,25.4,280,158,9,56,838,36,283,1.23e-13,72.4,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201815,non-single-bin-prok
+CM_cdhit-1_transcript_336858,BCW-201818_06885,25.4,280,158,9,56,838,36,283,1.23e-13,72.4,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201818,non-single-bin-prok
+CM_cdhit-1_transcript_336858,BCW-201823_02084,25.4,280,158,9,56,838,36,283,1.23e-13,72.4,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201823,non-single-bin-prok
+CM_cdhit-1_transcript_336858,BCW-201824_06661,25.4,280,158,9,56,838,36,283,1.23e-13,72.4,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201824,non-single-bin-prok
+CM_cdhit-1_transcript_336858,BCW-201825_05320,25.4,280,158,9,56,838,36,283,1.23e-13,72.4,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201825,non-single-bin-prok
+CM_cdhit-1_transcript_336858,BCW-201830_03189,25.4,280,158,9,56,838,36,283,1.23e-13,72.4,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201830,non-single-bin-prok
+CM_cdhit-1_transcript_336858,BCW-201834_01428,25.4,280,158,9,56,838,36,283,1.23e-13,72.4,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201834,non-single-bin-prok
+CM_cdhit-1_transcript_336858,BCW-201836_04438,25.4,280,158,9,56,838,36,283,1.23e-13,72.4,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201836,non-single-bin-prok
+CM_cdhit-1_transcript_336858,BCW-201840_04591,25.4,280,158,9,56,838,36,283,1.23e-13,72.4,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201840,non-single-bin-prok
+CM_cdhit-1_transcript_336858,BCW-201856_03462,25.4,280,158,9,56,838,36,283,1.23e-13,72.4,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201856,non-single-bin-prok
+CM_cdhit-1_transcript_336858,BCW-201860_06619,25.4,280,158,9,56,838,36,283,1.23e-13,72.4,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201860,non-single-bin-prok
+CM_cdhit-1_transcript_340674,BCW-201842_01455,38.7,297,174,4,1067,195,32,326,1.6099999999999998e-56,196,TIGR01290,nifB: nitrogenase cofactor biosynthesis protein NifB,BCW-201842,Curtobacterium
+CM_cdhit-1_transcript_340674,BCW-201896_02744,38.7,297,174,4,1067,195,32,326,1.6099999999999998e-56,196,TIGR01290,nifB: nitrogenase cofactor biosynthesis protein NifB,BCW-201896,Curtobacterium
+CM_cdhit-1_transcript_340674,BCW-201838_01575,39,300,169,5,1067,195,32,326,1.6099999999999996e-55,193,TIGR01290,nifB: nitrogenase cofactor biosynthesis protein NifB,BCW-201838,unassigned
+CM_cdhit-1_transcript_340674,BCW-201835_00290,35.9,284,168,6,1067,246,5,284,1.85e-53,187,TIGR01290,nifB: nitrogenase cofactor biosynthesis protein NifB,BCW-201835,Staphylococcus
+CM_cdhit-1_transcript_340674,BCW-200166_02557,34,347,211,9,1088,84,1,341,3.55e-51,181,TIGR01290,nifB: nitrogenase cofactor biosynthesis protein NifB,BCW-200166,unassigned
+CM_cdhit-1_transcript_341807,BCW-200012_00953,27.6,312,213,2,1041,121,2,305,9.92e-35,131,TIGR01616,nitro_assoc: nitrogenase-associated protein,BCW-200012,Enterobacter
+CM_cdhit-1_transcript_341807,BCW-200176_03431,24.4,307,229,1,1041,121,2,305,9.92e-35,131,TIGR01616,nitro_assoc: nitrogenase-associated protein,BCW-200176,Leclercia
+CM_cdhit-1_transcript_341807,BCW-201811_04643,27.2,312,214,2,1041,121,2,305,1.38e-34,130,TIGR01616,nitro_assoc: nitrogenase-associated protein,BCW-201811,unassigned
+CM_cdhit-1_transcript_341807,BCW-201832_04630,27.2,312,214,2,1041,121,2,305,1.38e-34,130,TIGR01616,nitro_assoc: nitrogenase-associated protein,BCW-201832,unassigned
+CM_cdhit-1_transcript_341807,BCW-201844_07447,27.2,312,214,2,1041,121,2,305,1.38e-34,130,TIGR01616,nitro_assoc: nitrogenase-associated protein,BCW-201844,unassigned
+CM_cdhit-1_transcript_341807,BCW-201845_04892,27.2,312,214,2,1041,121,2,305,1.38e-34,130,TIGR01616,nitro_assoc: nitrogenase-associated protein,BCW-201845,unassigned
+CM_cdhit-1_transcript_341807,BCW-201877_01446,27.2,312,214,2,1041,121,2,305,1.38e-34,130,TIGR01616,nitro_assoc: nitrogenase-associated protein,BCW-201877,unassigned
+CM_cdhit-1_transcript_341807,BCW-201878_04626,27.2,312,214,2,1041,121,2,305,1.38e-34,130,TIGR01616,nitro_assoc: nitrogenase-associated protein,BCW-201878,unassigned
+CM_cdhit-1_transcript_341807,BCW-201880_04901,27.2,312,214,2,1041,121,2,305,1.38e-34,130,TIGR01616,nitro_assoc: nitrogenase-associated protein,BCW-201880,unassigned
+CM_cdhit-1_transcript_341807,BCW-201882_04623,27.2,312,214,2,1041,121,2,305,1.38e-34,130,TIGR01616,nitro_assoc: nitrogenase-associated protein,BCW-201882,unassigned
+CM_cdhit-1_transcript_341807,BCW-201884_04828,27.2,312,214,2,1041,121,2,305,1.38e-34,130,TIGR01616,nitro_assoc: nitrogenase-associated protein,BCW-201884,unassigned
+CM_cdhit-1_transcript_341807,BCW-201885_04902,27.2,312,214,2,1041,121,2,305,1.38e-34,130,TIGR01616,nitro_assoc: nitrogenase-associated protein,BCW-201885,unassigned
+CM_cdhit-1_transcript_341807,BCW-201889_03385,27.2,312,214,2,1041,121,2,305,1.38e-34,130,TIGR01616,nitro_assoc: nitrogenase-associated protein,BCW-201889,unassigned
+CM_cdhit-1_transcript_341807,BCW-201895_04642,27.2,312,214,2,1041,121,2,305,1.38e-34,130,TIGR01616,nitro_assoc: nitrogenase-associated protein,BCW-201895,unassigned
+CM_cdhit-1_transcript_341807,BCW-201899_04916,27.2,312,214,2,1041,121,2,305,1.38e-34,130,TIGR01616,nitro_assoc: nitrogenase-associated protein,BCW-201899,unassigned
+CM_cdhit-1_transcript_341807,BCW-201903_00107,27.2,312,214,2,1041,121,2,305,1.38e-34,130,TIGR01616,nitro_assoc: nitrogenase-associated protein,BCW-201903,unassigned
+CM_cdhit-1_transcript_341807,BCW-201914_01439,27.2,312,214,2,1041,121,2,305,1.38e-34,130,TIGR01616,nitro_assoc: nitrogenase-associated protein,BCW-201914,unassigned
+CM_cdhit-1_transcript_341807,BCW-201938_03639,27.2,312,214,2,1041,121,2,305,1.38e-34,130,TIGR01616,nitro_assoc: nitrogenase-associated protein,BCW-201938,unassigned
+CM_cdhit-1_transcript_341807,BCW-201945_04645,27.2,312,214,2,1041,121,2,305,1.38e-34,130,TIGR01616,nitro_assoc: nitrogenase-associated protein,BCW-201945,unassigned
+CM_cdhit-1_transcript_341807,BCW-201957_02983,27.2,312,214,2,1041,121,2,305,1.38e-34,130,TIGR01616,nitro_assoc: nitrogenase-associated protein,BCW-201957,unassigned
+CM_cdhit-1_transcript_341807,BCW-201975_04646,27.2,312,214,2,1041,121,2,305,1.38e-34,130,TIGR01616,nitro_assoc: nitrogenase-associated protein,BCW-201975,unassigned
+CM_cdhit-1_transcript_341807,BCW-202005_04648,27.2,312,214,2,1041,121,2,305,1.38e-34,130,TIGR01616,nitro_assoc: nitrogenase-associated protein,BCW-202005,unassigned
+CM_cdhit-1_transcript_341807,BCW-200085_12446,27.2,312,214,2,1041,121,2,305,1.9199999999999999e-34,130,TIGR01616,nitro_assoc: nitrogenase-associated protein,BCW-200085,unassigned
+CM_cdhit-1_transcript_341807,BCW-200098_02345,27.2,312,214,2,1041,121,2,305,1.9199999999999999e-34,130,TIGR01616,nitro_assoc: nitrogenase-associated protein,BCW-200098,unassigned
+CM_cdhit-1_transcript_341807,BCW-200107_02144,27.2,312,214,2,1041,121,2,305,1.9199999999999999e-34,130,TIGR01616,nitro_assoc: nitrogenase-associated protein,BCW-200107,Enterobacter
+CM_cdhit-1_transcript_344904,BCW-200328_03890,27.2,261,174,7,115,867,3,257,2.95e-14,72,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200328,Agrobacterium
+CM_cdhit-1_transcript_344904,BCW-200663_03826,27.2,261,174,7,115,867,3,257,2.95e-14,72,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200663,Agrobacterium
+CM_cdhit-1_transcript_344904,BCW-200705_02706,27.2,261,174,7,115,867,3,257,2.95e-14,72,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200705,Agrobacterium
+CM_cdhit-1_transcript_344904,BCW-200902_00666,27.2,261,174,7,115,867,3,257,2.95e-14,72,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200902,Agrobacterium
+CM_cdhit-1_transcript_344904,BCW-200903_00376,27.2,261,174,7,115,867,3,257,2.95e-14,72,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200903,unassigned
+CM_cdhit-1_transcript_344904,BCW-200904_02360,27.2,261,174,7,115,867,3,257,2.95e-14,72,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200904,Agrobacterium
+CM_cdhit-1_transcript_344904,BCW-200910_03884,27.2,261,174,7,115,867,3,257,2.95e-14,72,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200910,Agrobacterium
+CM_cdhit-1_transcript_344904,BCW-200912_01390,27.2,261,174,7,115,867,3,257,2.95e-14,72,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200912,unassigned
+CM_cdhit-1_transcript_344904,BCW-200920_03039,27.2,261,174,7,115,867,3,257,2.95e-14,72,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200920,Agrobacterium
+CM_cdhit-1_transcript_344904,BCW-200208_05050,27.2,261,174,7,115,867,3,257,5.5e-14,71.2,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200208,Agrobacterium
+CM_cdhit-1_transcript_344904,BCW-200465_03768,26.8,261,175,7,115,867,3,257,7.5e-14,70.9,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200465,Agrobacterium
+CM_cdhit-1_transcript_344904,BCW-200215_00062,27.4,259,172,7,121,867,5,257,2.58e-13,69.3,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200215,Agrobacterium
+CM_cdhit-1_transcript_344904,BCW-200464_01188,27.8,259,171,7,121,867,5,257,8.86e-13,67.8,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200464,Agrobacterium
+CM_cdhit-1_transcript_344904,BCW-200001_02975,25.6,246,159,4,139,870,12,235,3.27e-12,65.9,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200001,Acidovorax
+CM_cdhit-1_transcript_344904,BCW-200011_02925,25.6,246,159,4,139,870,12,235,8.23e-12,64.7,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200011,Acidovorax
+CM_cdhit-1_transcript_344904,BCW-201813_04308,24,258,174,9,121,867,36,280,9.6e-8,53.1,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201813,non-single-bin-prok
+CM_cdhit-1_transcript_344904,BCW-201815_01192,24,258,174,9,121,867,36,280,9.6e-8,53.1,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201815,non-single-bin-prok
+CM_cdhit-1_transcript_344904,BCW-201818_06885,24,258,174,9,121,867,36,280,9.6e-8,53.1,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201818,non-single-bin-prok
+CM_cdhit-1_transcript_344904,BCW-201823_02084,24,258,174,9,121,867,36,280,9.6e-8,53.1,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201823,non-single-bin-prok
+CM_cdhit-1_transcript_344904,BCW-201824_06661,24,258,174,9,121,867,36,280,9.6e-8,53.1,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201824,non-single-bin-prok
+CM_cdhit-1_transcript_344904,BCW-201825_05320,24,258,174,9,121,867,36,280,9.6e-8,53.1,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201825,non-single-bin-prok
+CM_cdhit-1_transcript_344904,BCW-201830_03189,24,258,174,9,121,867,36,280,9.6e-8,53.1,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201830,non-single-bin-prok
+CM_cdhit-1_transcript_344904,BCW-201834_01428,24,258,174,9,121,867,36,280,9.6e-8,53.1,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201834,non-single-bin-prok
+CM_cdhit-1_transcript_344904,BCW-201836_04438,24,258,174,9,121,867,36,280,9.6e-8,53.1,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201836,non-single-bin-prok
+CM_cdhit-1_transcript_344904,BCW-201840_04591,24,258,174,9,121,867,36,280,9.6e-8,53.1,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201840,non-single-bin-prok
+CM_cdhit-1_transcript_347265,BCW-201870_04755,36.6,380,230,6,95,1231,16,385,3.33e-75,240,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-201870,Agrobacterium
+CM_cdhit-1_transcript_347265,BCW-201872_08988,36.6,380,230,6,95,1231,16,385,3.33e-75,240,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-201872,unassigned
+CM_cdhit-1_transcript_347265,BCW-200464_03939,36.1,380,232,6,95,1231,16,385,7.269999999999999e-74,237,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200464,Agrobacterium
+CM_cdhit-1_transcript_347265,BCW-200215_02179,35.8,380,233,6,95,1231,16,385,2.8600000000000004e-73,235,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200215,Agrobacterium
+CM_cdhit-1_transcript_347265,BCW-200533_04582,33.9,386,235,6,77,1228,16,383,1.3599999999999998e-66,218,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200533,Rhodococcus
+CM_cdhit-1_transcript_347265,BCW-200089_00305,32.5,385,245,8,98,1243,20,392,6.3699999999999994e-62,206,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200089,Burkholderia
+CM_cdhit-1_transcript_347265,BCW-200091_01862,32.5,385,245,8,98,1243,20,392,6.3699999999999994e-62,206,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200091,Burkholderia
+CM_cdhit-1_transcript_347265,BCW-200312_03502,32,400,233,8,80,1240,7,380,1.7599999999999998e-61,204,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200312,Enterococcus
+CM_cdhit-1_transcript_347265,BCW-200212_04559,34.1,387,244,8,98,1255,20,396,1.9e-61,204,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200212,Achromobacter
+CM_cdhit-1_transcript_347265,BCW-200130_00879,31.8,400,234,8,80,1240,7,380,2.48e-61,204,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200130,Enterococcus
+CM_cdhit-1_transcript_347265,BCW-201835_01672,31.3,393,252,7,68,1246,3,377,7.35e-59,197,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-201835,Staphylococcus
+CM_cdhit-1_transcript_348839,BCW-200208_05050,26.8,198,133,3,750,157,8,193,3.62e-10,59.7,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200208,Agrobacterium
+CM_cdhit-1_transcript_348839,BCW-200465_03768,26.8,198,133,3,750,157,8,193,4.9e-10,59.3,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200465,Agrobacterium
+CM_cdhit-1_transcript_348839,BCW-200215_00062,27.3,198,132,3,750,157,8,193,6.65e-10,58.9,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200215,Agrobacterium
+CM_cdhit-1_transcript_348839,BCW-200328_03890,26.3,198,134,3,750,157,8,193,1.65e-9,57.8,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200328,Agrobacterium
+CM_cdhit-1_transcript_348839,BCW-200663_03826,26.3,198,134,3,750,157,8,193,1.65e-9,57.8,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200663,Agrobacterium
+CM_cdhit-1_transcript_348839,BCW-200705_02706,26.3,198,134,3,750,157,8,193,1.65e-9,57.8,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200705,Agrobacterium
+CM_cdhit-1_transcript_348839,BCW-200902_00666,26.3,198,134,3,750,157,8,193,1.65e-9,57.8,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200902,Agrobacterium
+CM_cdhit-1_transcript_348839,BCW-200903_00376,26.3,198,134,3,750,157,8,193,1.65e-9,57.8,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200903,unassigned
+CM_cdhit-1_transcript_348839,BCW-200904_02360,26.3,198,134,3,750,157,8,193,1.65e-9,57.8,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200904,Agrobacterium
+CM_cdhit-1_transcript_348839,BCW-200910_03884,26.3,198,134,3,750,157,8,193,1.65e-9,57.8,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200910,Agrobacterium
+CM_cdhit-1_transcript_348839,BCW-200912_01390,26.3,198,134,3,750,157,8,193,1.65e-9,57.8,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200912,unassigned
+CM_cdhit-1_transcript_348839,BCW-200920_03039,26.3,198,134,3,750,157,8,193,1.65e-9,57.8,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200920,Agrobacterium
+CM_cdhit-1_transcript_348839,BCW-200464_01188,26.3,198,134,3,750,157,8,193,1.85e-8,54.7,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200464,Agrobacterium
+CM_cdhit-1_transcript_348839,BCW-201813_04308,24.5,204,137,6,750,151,39,229,3.24e-6,48.1,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201813,non-single-bin-prok
+CM_cdhit-1_transcript_348839,BCW-201815_01192,24.5,204,137,6,750,151,39,229,3.24e-6,48.1,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201815,non-single-bin-prok
+CM_cdhit-1_transcript_348839,BCW-201818_06885,24.5,204,137,6,750,151,39,229,3.24e-6,48.1,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201818,non-single-bin-prok
+CM_cdhit-1_transcript_348839,BCW-201823_02084,24.5,204,137,6,750,151,39,229,3.24e-6,48.1,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201823,non-single-bin-prok
+CM_cdhit-1_transcript_348839,BCW-201824_06661,24.5,204,137,6,750,151,39,229,3.24e-6,48.1,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201824,non-single-bin-prok
+CM_cdhit-1_transcript_348839,BCW-201825_05320,24.5,204,137,6,750,151,39,229,3.24e-6,48.1,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201825,non-single-bin-prok
+CM_cdhit-1_transcript_348839,BCW-201830_03189,24.5,204,137,6,750,151,39,229,3.24e-6,48.1,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201830,non-single-bin-prok
+CM_cdhit-1_transcript_348839,BCW-201834_01428,24.5,204,137,6,750,151,39,229,3.24e-6,48.1,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201834,non-single-bin-prok
+CM_cdhit-1_transcript_348839,BCW-201836_04438,24.5,204,137,6,750,151,39,229,3.24e-6,48.1,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201836,non-single-bin-prok
+CM_cdhit-1_transcript_348839,BCW-201840_04591,24.5,204,137,6,750,151,39,229,3.24e-6,48.1,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201840,non-single-bin-prok
+CM_cdhit-1_transcript_348839,BCW-201856_03462,24.5,204,137,6,750,151,39,229,3.24e-6,48.1,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201856,non-single-bin-prok
+CM_cdhit-1_transcript_348839,BCW-201860_06619,24.5,204,137,6,750,151,39,229,3.24e-6,48.1,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201860,non-single-bin-prok
+CM_cdhit-1_transcript_351416,BCW-200465_01305,30.7,88,58,2,282,19,911,995,4.88e-4,42,TIGR02938,nifL_nitrog: nitrogen fixation negative regulator NifL,BCW-200465,Agrobacterium
+CM_cdhit-1_transcript_351416,BCW-200208_02747,30.7,88,58,2,282,19,921,1005,4.88e-4,42,TIGR02938,nifL_nitrog: nitrogen fixation negative regulator NifL,BCW-200208,Agrobacterium
+CM_cdhit-1_transcript_351416,BCW-200663_05158,30.7,88,58,2,282,19,926,1010,4.89e-4,42,TIGR02938,nifL_nitrog: nitrogen fixation negative regulator NifL,BCW-200663,Agrobacterium
+CM_cdhit-1_transcript_351416,BCW-200464_04021,35.2,88,51,3,282,22,619,701,8.04e-4,41.2,TIGR02938,nifL_nitrog: nitrogen fixation negative regulator NifL,BCW-200464,Agrobacterium
+CM_cdhit-1_transcript_351416,BCW-200328_00747,30.7,88,58,2,282,19,926,1010,8.66e-4,41.2,TIGR02938,nifL_nitrog: nitrogen fixation negative regulator NifL,BCW-200328,Agrobacterium
+CM_cdhit-1_transcript_351416,BCW-200705_04618,30.7,88,58,2,282,19,926,1010,8.66e-4,41.2,TIGR02938,nifL_nitrog: nitrogen fixation negative regulator NifL,BCW-200705,Agrobacterium
+CM_cdhit-1_transcript_351416,BCW-200902_03185,30.7,88,58,2,282,19,926,1010,8.66e-4,41.2,TIGR02938,nifL_nitrog: nitrogen fixation negative regulator NifL,BCW-200902,Agrobacterium
+CM_cdhit-1_transcript_351416,BCW-200903_01167,30.7,88,58,2,282,19,926,1010,8.66e-4,41.2,TIGR02938,nifL_nitrog: nitrogen fixation negative regulator NifL,BCW-200903,unassigned
+CM_cdhit-1_transcript_351416,BCW-200904_05563,30.7,88,58,2,282,19,926,1010,8.66e-4,41.2,TIGR02938,nifL_nitrog: nitrogen fixation negative regulator NifL,BCW-200904,Agrobacterium
+CM_cdhit-1_transcript_351416,BCW-200910_02929,30.7,88,58,2,282,19,926,1010,8.66e-4,41.2,TIGR02938,nifL_nitrog: nitrogen fixation negative regulator NifL,BCW-200910,Agrobacterium
+CM_cdhit-1_transcript_351416,BCW-200912_01043,30.7,88,58,2,282,19,926,1010,8.66e-4,41.2,TIGR02938,nifL_nitrog: nitrogen fixation negative regulator NifL,BCW-200912,unassigned
+CM_cdhit-1_transcript_351416,BCW-200920_04830,30.7,88,58,2,282,19,926,1010,8.66e-4,41.2,TIGR02938,nifL_nitrog: nitrogen fixation negative regulator NifL,BCW-200920,Agrobacterium
+CM_cdhit-1_transcript_354923,BCW-200105_02028,74.2,128,33,0,402,785,1,128,6.29e-64,200,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200105,Acinetobacter
+CM_cdhit-1_transcript_354923,BCW-200108_08529,74.2,128,33,0,402,785,1,128,6.29e-64,200,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200108,unassigned
+CM_cdhit-1_transcript_354923,BCW-200112_02930,74.2,128,33,0,402,785,1,128,6.29e-64,200,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200112,Acinetobacter
+CM_cdhit-1_transcript_354923,BCW-200116_03491,74.2,128,33,0,402,785,1,128,6.29e-64,200,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200116,Acinetobacter
+CM_cdhit-1_transcript_354923,BCW-200118_03586,74.2,128,33,0,402,785,1,128,6.29e-64,200,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200118,Acinetobacter
+CM_cdhit-1_transcript_354923,BCW-200119_03447,74.2,128,33,0,402,785,1,128,6.29e-64,200,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200119,Acinetobacter
+CM_cdhit-1_transcript_354923,BCW-200097_03235,74.2,128,33,0,402,785,1,128,8.890000000000001e-64,200,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200097,Acinetobacter
+CM_cdhit-1_transcript_354923,BCW-200002_03056,72.7,128,35,0,402,785,1,128,5.64e-62,195,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200002,unassigned
+CM_cdhit-1_transcript_354923,BCW-200008_01463,72.7,128,35,0,402,785,1,128,5.64e-62,195,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200008,Acinetobacter
+CM_cdhit-1_transcript_354923,BCW-200020_03959,72.7,128,35,0,402,785,1,128,5.64e-62,195,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200020,unassigned
+CM_cdhit-1_transcript_354923,BCW-200032_03198,72.7,128,35,0,402,785,1,128,5.64e-62,195,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200032,Acinetobacter
+CM_cdhit-1_transcript_354923,BCW-200044_02676,72.7,128,35,0,402,785,1,128,5.64e-62,195,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200044,Acinetobacter
+CM_cdhit-1_transcript_354923,BCW-200081_02893,72.7,128,35,0,402,785,1,128,5.64e-62,195,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200081,Acinetobacter
+CM_cdhit-1_transcript_354923,BCW-200085_02274,72.7,128,35,0,402,785,1,128,5.64e-62,195,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200085,unassigned
+CM_cdhit-1_transcript_354923,BCW-200098_11431,72.7,128,35,0,402,785,1,128,5.64e-62,195,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200098,unassigned
+CM_cdhit-1_transcript_354923,BCW-200100_02864,72.7,128,35,0,402,785,1,128,5.64e-62,195,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200100,Acinetobacter
+CM_cdhit-1_transcript_354923,BCW-200065_02624,72.4,127,35,0,402,782,1,127,7.98e-62,195,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200065,Pseudomonas
+CM_cdhit-1_transcript_354923,BCW-200471_03142,72.4,127,35,0,402,782,1,127,7.98e-62,195,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200471,Pseudomonas
+CM_cdhit-1_transcript_354923,BCW-200048_00890,71.7,127,36,0,402,782,1,127,4.49e-61,193,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200048,unassigned
+CM_cdhit-1_transcript_354923,BCW-200052_02639,71.7,127,36,0,402,782,1,127,4.49e-61,193,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200052,unassigned
+CM_cdhit-1_transcript_354923,BCW-200056_00237,71.7,127,36,0,402,782,1,127,4.49e-61,193,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200056,Pseudomonas
+CM_cdhit-1_transcript_354923,BCW-200068_03982,71.7,127,36,0,402,782,1,127,4.49e-61,193,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200068,Pseudomonas
+CM_cdhit-1_transcript_354923,BCW-200267_05991,71.7,127,36,0,402,782,1,127,4.49e-61,193,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200267,Pseudomonas
+CM_cdhit-1_transcript_354923,BCW-200290_05222,71.7,127,36,0,402,782,1,127,4.49e-61,193,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200290,Pseudomonas
+CM_cdhit-1_transcript_354923,BCW-200443_03478,71.7,127,36,0,402,782,1,127,4.49e-61,193,TIGR01994,"SUF_scaf_2: SUF system FeS assembly protein, NifU family",BCW-200443,Pseudomonas
+CM_cdhit-1_transcript_355167,BCW-201813_04308,31.2,253,165,6,134,874,31,280,1.4699999999999999e-24,101,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201813,non-single-bin-prok
+CM_cdhit-1_transcript_355167,BCW-201815_01192,31.2,253,165,6,134,874,31,280,1.4699999999999999e-24,101,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201815,non-single-bin-prok
+CM_cdhit-1_transcript_355167,BCW-201818_06885,31.2,253,165,6,134,874,31,280,1.4699999999999999e-24,101,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201818,non-single-bin-prok
+CM_cdhit-1_transcript_355167,BCW-201823_02084,31.2,253,165,6,134,874,31,280,1.4699999999999999e-24,101,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201823,non-single-bin-prok
+CM_cdhit-1_transcript_355167,BCW-201824_06661,31.2,253,165,6,134,874,31,280,1.4699999999999999e-24,101,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201824,non-single-bin-prok
+CM_cdhit-1_transcript_355167,BCW-201825_05320,31.2,253,165,6,134,874,31,280,1.4699999999999999e-24,101,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201825,non-single-bin-prok
+CM_cdhit-1_transcript_355167,BCW-201830_03189,31.2,253,165,6,134,874,31,280,1.4699999999999999e-24,101,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201830,non-single-bin-prok
+CM_cdhit-1_transcript_355167,BCW-201834_01428,31.2,253,165,6,134,874,31,280,1.4699999999999999e-24,101,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201834,non-single-bin-prok
+CM_cdhit-1_transcript_355167,BCW-201836_04438,31.2,253,165,6,134,874,31,280,1.4699999999999999e-24,101,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201836,non-single-bin-prok
+CM_cdhit-1_transcript_355167,BCW-201840_04591,31.2,253,165,6,134,874,31,280,1.4699999999999999e-24,101,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201840,non-single-bin-prok
+CM_cdhit-1_transcript_355167,BCW-201856_03462,31.2,253,165,6,134,874,31,280,1.4699999999999999e-24,101,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201856,non-single-bin-prok
+CM_cdhit-1_transcript_355167,BCW-201860_06619,31.2,253,165,6,134,874,31,280,1.4699999999999999e-24,101,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201860,non-single-bin-prok
+CM_cdhit-1_transcript_355167,BCW-201894_02046,31.2,253,165,6,134,874,31,280,1.4699999999999999e-24,101,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201894,non-single-bin-prok
+CM_cdhit-1_transcript_355167,BCW-201911_03465,31.2,253,165,6,134,874,31,280,1.4699999999999999e-24,101,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201911,non-single-bin-prok
+CM_cdhit-1_transcript_355167,BCW-201915_02494,31.2,253,165,6,134,874,31,280,1.4699999999999999e-24,101,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201915,non-single-bin-prok
+CM_cdhit-1_transcript_355167,BCW-201916_02372,31.2,253,165,6,134,874,31,280,1.4699999999999999e-24,101,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201916,non-single-bin-prok
+CM_cdhit-1_transcript_355167,BCW-201919_02413,31.2,253,165,6,134,874,31,280,1.4699999999999999e-24,101,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201919,non-single-bin-prok
+CM_cdhit-1_transcript_355167,BCW-201954_08318,31.2,253,165,6,134,874,31,280,1.4699999999999999e-24,101,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201954,non-single-bin-prok
+CM_cdhit-1_transcript_355167,BCW-200011_02925,34.7,190,119,3,317,877,48,235,2.26e-22,94.7,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200011,Acidovorax
+CM_cdhit-1_transcript_355167,BCW-200001_02975,34.2,190,120,3,317,877,48,235,3.13e-22,94.4,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200001,Acidovorax
+CM_cdhit-1_transcript_355167,BCW-200215_00062,31.6,256,158,5,149,874,5,257,2.3000000000000004e-21,92.4,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200215,Agrobacterium
+CM_cdhit-1_transcript_355167,BCW-200464_01188,31.3,256,159,5,149,874,5,257,1.14e-20,90.5,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200464,Agrobacterium
+CM_cdhit-1_transcript_355167,BCW-200208_05050,29.7,259,159,6,149,874,5,257,2.78e-19,86.7,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200208,Agrobacterium
+CM_cdhit-1_transcript_355167,BCW-200465_03768,29.3,259,160,6,149,874,5,257,3.82e-19,86.3,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200465,Agrobacterium
+CM_cdhit-1_transcript_355167,BCW-200328_03890,29.3,259,160,6,149,874,5,257,1.36e-18,84.7,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200328,Agrobacterium
+CM_cdhit-1_transcript_356967,BCW-200111_03273,27.2,173,105,7,551,1024,830,996,4.06e-8,56.6,TIGR02938,nifL_nitrog: nitrogen fixation negative regulator NifL,BCW-200111,Citrobacter
+CM_cdhit-1_transcript_356967,BCW-200127_06875,27.2,173,105,7,551,1024,830,996,4.06e-8,56.6,TIGR02938,nifL_nitrog: nitrogen fixation negative regulator NifL,BCW-200127,unassigned
+CM_cdhit-1_transcript_356967,BCW-201870_02523,27.1,118,82,2,551,892,2,119,6.98e-8,55.5,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201870,Agrobacterium
+CM_cdhit-1_transcript_356967,BCW-201872_08409,27.1,118,82,2,551,892,2,119,6.98e-8,55.5,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201872,unassigned
+CM_cdhit-1_transcript_356967,BCW-200215_02432,27.1,118,82,2,551,892,2,119,9.22e-8,55.1,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200215,Agrobacterium
+CM_cdhit-1_transcript_356967,BCW-200464_02227,27.1,118,82,2,551,892,2,119,9.22e-8,55.1,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200464,Agrobacterium
+CM_cdhit-1_transcript_356967,BCW-200208_00920,26.3,118,83,2,551,892,2,119,1.22e-7,54.7,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200208,Agrobacterium
+CM_cdhit-1_transcript_356967,BCW-200328_05585,26.3,118,83,2,551,892,2,119,1.22e-7,54.7,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200328,Agrobacterium
+CM_cdhit-1_transcript_356967,BCW-200465_05274,26.3,118,83,2,551,892,2,119,1.22e-7,54.7,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200465,Agrobacterium
+CM_cdhit-1_transcript_356967,BCW-200663_01668,26.3,118,83,2,551,892,2,119,1.22e-7,54.7,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200663,Agrobacterium
+CM_cdhit-1_transcript_356967,BCW-200705_05247,26.3,118,83,2,551,892,2,119,1.22e-7,54.7,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200705,Agrobacterium
+CM_cdhit-1_transcript_356967,BCW-200902_04393,26.3,118,83,2,551,892,2,119,1.22e-7,54.7,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200902,Agrobacterium
+CM_cdhit-1_transcript_356967,BCW-200903_02521,26.3,118,83,2,551,892,2,119,1.22e-7,54.7,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200903,unassigned
+CM_cdhit-1_transcript_356967,BCW-200904_05003,26.3,118,83,2,551,892,2,119,1.22e-7,54.7,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200904,Agrobacterium
+CM_cdhit-1_transcript_356967,BCW-200910_05616,26.3,118,83,2,551,892,2,119,1.22e-7,54.7,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200910,Agrobacterium
+CM_cdhit-1_transcript_356967,BCW-200912_05507,26.3,118,83,2,551,892,2,119,1.22e-7,54.7,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200912,unassigned
+CM_cdhit-1_transcript_356967,BCW-200920_05780,26.3,118,83,2,551,892,2,119,1.22e-7,54.7,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200920,Agrobacterium
+CM_cdhit-1_transcript_356967,BCW-200049_04584,29.1,117,75,4,554,889,829,942,5.91e-6,49.7,TIGR02938,nifL_nitrog: nitrogen fixation negative regulator NifL,BCW-200049,Klebsiella
+CM_cdhit-1_transcript_356967,BCW-200053_03790,29.1,117,75,4,554,889,829,942,5.91e-6,49.7,TIGR02938,nifL_nitrog: nitrogen fixation negative regulator NifL,BCW-200053,Klebsiella
+CM_cdhit-1_transcript_356967,BCW-200328_04204,26.8,112,77,3,563,892,949,1057,1.23e-4,45.4,TIGR02938,nifL_nitrog: nitrogen fixation negative regulator NifL,BCW-200328,Agrobacterium
+CM_cdhit-1_transcript_356967,BCW-200705_00860,26.8,112,77,3,563,892,949,1057,1.23e-4,45.4,TIGR02938,nifL_nitrog: nitrogen fixation negative regulator NifL,BCW-200705,Agrobacterium
+CM_cdhit-1_transcript_356967,BCW-200902_01140,26.8,112,77,3,563,892,949,1057,1.23e-4,45.4,TIGR02938,nifL_nitrog: nitrogen fixation negative regulator NifL,BCW-200902,Agrobacterium
+CM_cdhit-1_transcript_356967,BCW-200903_00694,26.8,112,77,3,563,892,949,1057,1.23e-4,45.4,TIGR02938,nifL_nitrog: nitrogen fixation negative regulator NifL,BCW-200903,unassigned
+CM_cdhit-1_transcript_356967,BCW-200904_01215,26.8,112,77,3,563,892,949,1057,1.23e-4,45.4,TIGR02938,nifL_nitrog: nitrogen fixation negative regulator NifL,BCW-200904,Agrobacterium
+CM_cdhit-1_transcript_356967,BCW-200910_01155,26.8,112,77,3,563,892,949,1057,1.23e-4,45.4,TIGR02938,nifL_nitrog: nitrogen fixation negative regulator NifL,BCW-200910,Agrobacterium
+CM_cdhit-1_transcript_358095,BCW-200279_02235,37.5,309,165,5,918,1,12,295,5.76e-48,173,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200279,Enterobacter
+CM_cdhit-1_transcript_361421,BCW-200111_01644,31.1,122,81,3,223,585,1,120,1.72e-10,63.9,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200111,Citrobacter
+CM_cdhit-1_transcript_361421,BCW-200276_04556,29.5,122,83,3,223,585,1,120,8.79e-9,58.5,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200276,Raoultella
+CM_cdhit-1_transcript_361421,BCW-200553_04268,29.5,122,83,3,223,585,1,120,8.79e-9,58.5,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200553,Raoultella
+CM_cdhit-1_transcript_361421,BCW-200661_05168,29.5,122,83,3,223,585,1,120,8.79e-9,58.5,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200661,Raoultella
+CM_cdhit-1_transcript_361421,BCW-200665_01290,29.5,122,83,3,223,585,1,120,8.79e-9,58.5,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200665,Raoultella
+CM_cdhit-1_transcript_361421,BCW-200704_04263,29.5,122,83,3,223,585,1,120,8.79e-9,58.5,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200704,Raoultella
+CM_cdhit-1_transcript_361421,BCW-200775_05152,29.5,122,83,3,223,585,1,120,8.79e-9,58.5,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200775,Raoultella
+CM_cdhit-1_transcript_361421,BCW-200776_04855,29.5,122,83,3,223,585,1,120,8.79e-9,58.5,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200776,Raoultella
+CM_cdhit-1_transcript_361421,BCW-201075_04549,29.5,122,83,3,223,585,1,120,8.79e-9,58.5,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201075,Raoultella
+CM_cdhit-1_transcript_361421,BCW-201078_04425,29.5,122,83,3,223,585,1,120,8.79e-9,58.5,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201078,Raoultella
+CM_cdhit-1_transcript_361421,BCW-201097_03330,29.5,122,83,3,223,585,1,120,8.79e-9,58.5,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201097,unassigned
+CM_cdhit-1_transcript_361421,BCW-201098_03762,29.5,122,83,3,223,585,1,120,8.79e-9,58.5,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201098,Raoultella
+CM_cdhit-1_transcript_361421,BCW-201107_04488,29.5,122,83,3,223,585,1,120,8.79e-9,58.5,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201107,Raoultella
+CM_cdhit-1_transcript_361421,BCW-201614_00309,29.5,122,83,3,223,585,1,120,8.79e-9,58.5,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201614,Raoultella
+CM_cdhit-1_transcript_361421,BCW-201615_04955,29.5,122,83,3,223,585,1,120,8.79e-9,58.5,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201615,Raoultella
+CM_cdhit-1_transcript_361421,BCW-201620_04844,29.5,122,83,3,223,585,1,120,8.79e-9,58.5,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201620,Raoultella
+CM_cdhit-1_transcript_361421,BCW-201703_04817,29.5,122,83,3,223,585,1,120,8.79e-9,58.5,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201703,Raoultella
+CM_cdhit-1_transcript_361421,BCW-200036_03029,28.7,122,84,3,223,585,1,120,1.16e-8,58.2,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200036,Citrobacter
+CM_cdhit-1_transcript_361421,BCW-200087_05411,28.7,122,84,3,223,585,1,120,1.16e-8,58.2,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200087,unassigned
+CM_cdhit-1_transcript_361421,BCW-201173_03375,31,116,77,3,241,585,7,120,2.04e-8,57.4,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201173,Escherichia
+CM_cdhit-1_transcript_361421,BCW-200127_00533,35.2,88,55,2,325,585,16,102,2.6e-8,57,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200127,unassigned
+CM_cdhit-1_transcript_361421,BCW-201173_00995,31,129,85,4,229,609,4,130,4.54e-8,56.2,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201173,Escherichia
+CM_cdhit-1_transcript_361421,BCW-200539_01649,28.7,122,84,3,223,585,1,120,1.45e-7,54.7,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200539,Citrobacter
+CM_cdhit-1_transcript_361421,BCW-200983_01043,28.7,122,84,3,223,585,1,120,1.45e-7,54.7,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200983,Citrobacter
+CM_cdhit-1_transcript_361421,BCW-200984_01564,28.7,122,84,3,223,585,1,120,1.45e-7,54.7,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200984,Citrobacter
+CM_cdhit-1_transcript_361932,BCW-200471_03157,41.3,213,119,5,2,625,171,382,3.4899999999999994e-42,157,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200471,Pseudomonas
+CM_cdhit-1_transcript_361932,BCW-201859_01384,40.4,213,121,5,2,625,171,382,1.7299999999999999e-41,155,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-201859,Pseudomonas
+CM_cdhit-1_transcript_361932,BCW-201875_01958,40.4,213,121,5,2,625,171,382,1.7299999999999999e-41,155,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-201875,Pseudomonas
+CM_cdhit-1_transcript_361932,BCW-201947_01940,40.4,213,121,5,2,625,171,382,1.7299999999999999e-41,155,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-201947,Pseudomonas
+CM_cdhit-1_transcript_361932,BCW-201868_03546,40.8,213,120,5,2,625,171,382,3.27e-41,154,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-201868,Pseudomonas
+CM_cdhit-1_transcript_361932,BCW-200068_03997,41.8,213,118,5,2,625,171,382,6.2e-41,153,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200068,Pseudomonas
+CM_cdhit-1_transcript_361932,BCW-200290_05237,40.8,213,120,5,2,625,171,382,6.2e-41,153,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200290,Pseudomonas
+CM_cdhit-1_transcript_361932,BCW-200048_00905,40.8,213,120,5,2,625,171,382,8.53e-41,153,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200048,unassigned
+CM_cdhit-1_transcript_361932,BCW-200056_00222,40.8,213,120,5,2,625,171,382,8.53e-41,153,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200056,Pseudomonas
+CM_cdhit-1_transcript_361932,BCW-200267_05976,41.3,213,119,5,2,625,171,382,8.53e-41,153,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200267,Pseudomonas
+CM_cdhit-1_transcript_361932,BCW-200443_03463,40.8,213,120,5,2,625,171,382,8.53e-41,153,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200443,Pseudomonas
+CM_cdhit-1_transcript_361932,BCW-200476_04576,41.3,213,119,5,2,625,171,382,8.53e-41,153,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200476,Pseudomonas
+CM_cdhit-1_transcript_361932,BCW-200497_04909,41.3,213,119,5,2,625,171,382,8.53e-41,153,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200497,Pseudomonas
+CM_cdhit-1_transcript_361932,BCW-200498_05074,41.3,213,119,5,2,625,171,382,8.53e-41,153,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200498,unassigned
+CM_cdhit-1_transcript_361932,BCW-200516_03456,41.3,213,119,5,2,625,171,382,8.53e-41,153,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200516,unassigned
+CM_cdhit-1_transcript_361932,BCW-200526_03723,41.3,213,119,5,2,625,171,382,8.53e-41,153,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200526,unassigned
+CM_cdhit-1_transcript_361932,BCW-200527_05293,41.3,213,119,5,2,625,171,382,8.53e-41,153,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200527,Pseudomonas
+CM_cdhit-1_transcript_361932,BCW-200528_02542,41.3,213,119,5,2,625,171,382,8.53e-41,153,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200528,Pseudomonas
+CM_cdhit-1_transcript_361932,BCW-200588_03742,41.3,213,119,5,2,625,171,382,8.53e-41,153,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200588,Pseudomonas
+CM_cdhit-1_transcript_361932,BCW-200607_03907,41.3,213,119,5,2,625,171,382,8.53e-41,153,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200607,Pseudomonas
+CM_cdhit-1_transcript_361932,BCW-200790_05033,41.3,213,119,5,2,625,171,382,8.53e-41,153,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200790,Pseudomonas
+CM_cdhit-1_transcript_361932,BCW-200791_00971,41.3,213,119,5,2,625,171,382,8.53e-41,153,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200791,Pseudomonas
+CM_cdhit-1_transcript_361932,BCW-200010_00816,40.4,213,121,5,2,625,171,382,1.49e-39,149,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200010,unassigned
+CM_cdhit-1_transcript_361932,BCW-200042_00290,40.4,213,121,5,2,625,171,382,1.49e-39,149,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200042,unassigned
+CM_cdhit-1_transcript_361932,BCW-200211_04085,40.4,213,121,5,2,625,171,382,1.49e-39,149,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200211,Pseudomonas
+CM_cdhit-1_transcript_363887,BCW-200103_00161,33.7,86,56,1,339,85,405,490,4.06e-7,52,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200103,Stenotrophomonas
+CM_cdhit-1_transcript_365695,BCW-200101_02837,54.9,379,168,2,1167,31,1,376,2.73e-139,410,TIGR03403,"nifS_epsilon: cysteine desulfurase, NifS family",BCW-200101,Bacillus
+CM_cdhit-1_transcript_365695,BCW-200021_09289,44.3,386,207,4,1167,28,1,384,2.91e-105,323,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200021,unassigned
+CM_cdhit-1_transcript_365695,BCW-200083_04101,44.3,386,207,4,1167,28,1,384,2.91e-105,323,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200083,Klebsiella
+CM_cdhit-1_transcript_365695,BCW-200084_04193,44.3,386,207,4,1167,28,1,384,2.91e-105,323,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200084,Klebsiella
+CM_cdhit-1_transcript_365695,BCW-200086_04206,44.3,386,207,4,1167,28,1,384,2.91e-105,323,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200086,Klebsiella
+CM_cdhit-1_transcript_365695,BCW-200087_09497,44.3,386,207,4,1167,28,1,384,2.91e-105,323,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200087,unassigned
+CM_cdhit-1_transcript_365695,BCW-200093_03450,44.3,386,207,4,1167,28,1,384,2.91e-105,323,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200093,Klebsiella
+CM_cdhit-1_transcript_365695,BCW-200113_02033,44.3,386,207,4,1167,28,1,384,2.91e-105,323,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200113,unassigned
+CM_cdhit-1_transcript_365695,BCW-200123_04688,44.3,386,207,4,1167,28,1,384,2.91e-105,323,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200123,Klebsiella
+CM_cdhit-1_transcript_365695,BCW-200124_01426,44.3,386,207,4,1167,28,1,384,2.91e-105,323,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200124,Klebsiella
+CM_cdhit-1_transcript_365695,BCW-200127_07966,44.3,386,207,4,1167,28,1,384,2.91e-105,323,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200127,unassigned
+CM_cdhit-1_transcript_365695,BCW-200129_02504,44.3,386,207,4,1167,28,1,384,2.91e-105,323,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200129,Klebsiella
+CM_cdhit-1_transcript_365695,BCW-200132_04290,44.3,386,207,4,1167,28,1,384,2.91e-105,323,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200132,Klebsiella
+CM_cdhit-1_transcript_365695,BCW-200135_07207,44.3,386,207,4,1167,28,1,384,2.91e-105,323,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200135,unassigned
+CM_cdhit-1_transcript_365695,BCW-200136_04357,44.3,386,207,4,1167,28,1,384,2.91e-105,323,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200136,Klebsiella
+CM_cdhit-1_transcript_365695,BCW-200137_04644,44.3,386,207,4,1167,28,1,384,2.91e-105,323,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200137,Klebsiella
+CM_cdhit-1_transcript_365695,BCW-200140_05847,44.3,386,207,4,1167,28,1,384,2.91e-105,323,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200140,unassigned
+CM_cdhit-1_transcript_365695,BCW-200166_07699,44.3,386,207,4,1167,28,1,384,2.91e-105,323,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200166,unassigned
+CM_cdhit-1_transcript_365695,BCW-200167_04581,44.3,386,207,4,1167,28,1,384,2.91e-105,323,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200167,Klebsiella
+CM_cdhit-1_transcript_365695,BCW-200172_03969,44.3,386,207,4,1167,28,1,384,2.91e-105,323,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200172,Klebsiella
+CM_cdhit-1_transcript_365695,BCW-200177_04650,44.3,386,207,4,1167,28,1,384,2.91e-105,323,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200177,Klebsiella
+CM_cdhit-1_transcript_365695,BCW-200242_00697,44.3,386,207,4,1167,28,1,384,2.91e-105,323,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200242,unassigned
+CM_cdhit-1_transcript_365695,BCW-200243_02552,44.3,386,207,4,1167,28,1,384,2.91e-105,323,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200243,unassigned
+CM_cdhit-1_transcript_365695,BCW-200069_02193,44,386,208,4,1167,28,1,384,8.17e-105,322,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200069,Klebsiella
+CM_cdhit-1_transcript_365695,BCW-200089_06265,40.8,343,196,4,1041,31,53,394,1.79e-81,262,TIGR03402,FeS_nifS: cysteine desulfurase NifS,BCW-200089,Burkholderia
+CM_cdhit-1_transcript_367062,BCW-200010_06630,27.8,428,274,7,1452,199,22,424,1.61e-30,129,TIGR02936,"fdxN_nitrog: ferredoxin III, nif-specific",BCW-200010,unassigned
+CM_cdhit-1_transcript_367062,BCW-200042_00778,27.8,428,274,7,1452,199,22,424,1.61e-30,129,TIGR02936,"fdxN_nitrog: ferredoxin III, nif-specific",BCW-200042,unassigned
+CM_cdhit-1_transcript_368449,BCW-201058_02792,42.1,235,122,1,235,939,7,227,6.759999999999999e-56,187,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201058,Metakosakonia
+CM_cdhit-1_transcript_368449,BCW-201155_02550,42.1,235,122,1,235,939,7,227,6.759999999999999e-56,187,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201155,Metakosakonia
+CM_cdhit-1_transcript_368449,BCW-200031_03695,42.1,235,122,2,235,939,7,227,1.7899999999999998e-55,186,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200031,Citrobacter
+CM_cdhit-1_transcript_368449,BCW-201173_00995,42.4,236,120,2,235,939,7,227,1.7899999999999998e-55,186,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201173,Escherichia
+CM_cdhit-1_transcript_368449,BCW-200111_02186,41.1,236,123,2,235,939,7,227,4.939999999999999e-55,185,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200111,Citrobacter
+CM_cdhit-1_transcript_368449,BCW-200656_00093,42.8,236,119,2,235,939,7,227,1.43e-54,184,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200656,Metakosakonia
+CM_cdhit-1_transcript_368449,BCW-201808_02511,42.8,236,119,2,235,939,7,227,1.43e-54,184,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201808,Metakosakonia
+CM_cdhit-1_transcript_368449,BCW-201828_03946,42.8,236,119,2,235,939,7,227,1.43e-54,184,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201828,Metakosakonia
+CM_cdhit-1_transcript_368449,BCW-201850_04168,42.8,236,119,2,235,939,7,227,1.43e-54,184,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201850,Metakosakonia
+CM_cdhit-1_transcript_368449,BCW-201858_02474,42.8,236,119,2,235,939,7,227,1.43e-54,184,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201858,Metakosakonia
+CM_cdhit-1_transcript_368449,BCW-201873_00454,42.8,236,119,2,235,939,7,227,1.43e-54,184,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201873,Metakosakonia
+CM_cdhit-1_transcript_368449,BCW-201876_02693,42.8,236,119,2,235,939,7,227,1.43e-54,184,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201876,Metakosakonia
+CM_cdhit-1_transcript_368449,BCW-201879_03869,42.8,236,119,2,235,939,7,227,1.43e-54,184,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201879,Metakosakonia
+CM_cdhit-1_transcript_368449,BCW-201886_04826,42.8,236,119,2,235,939,7,227,1.43e-54,184,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201886,Metakosakonia
+CM_cdhit-1_transcript_368449,BCW-201887_03372,42.8,236,119,2,235,939,7,227,1.43e-54,184,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201887,Metakosakonia
+CM_cdhit-1_transcript_368449,BCW-201888_00092,42.8,236,119,2,235,939,7,227,1.43e-54,184,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201888,Metakosakonia
+CM_cdhit-1_transcript_368449,BCW-201937_01609,42.8,236,119,2,235,939,7,227,1.43e-54,184,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201937,Metakosakonia
+CM_cdhit-1_transcript_368449,BCW-201972_03635,42.8,236,119,2,235,939,7,227,1.43e-54,184,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201972,Metakosakonia
+CM_cdhit-1_transcript_368449,BCW-201990_03521,42.8,236,119,2,235,939,7,227,1.43e-54,184,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201990,Metakosakonia
+CM_cdhit-1_transcript_368449,BCW-202006_00573,42.8,236,119,2,235,939,7,227,1.43e-54,184,TIGR01817,nifA: Nif-specific regulatory protein,BCW-202006,unassigned
+CM_cdhit-1_transcript_368449,BCW-200039_00035,41,234,124,2,238,939,8,227,5.29e-54,182,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200039,unassigned
+CM_cdhit-1_transcript_368449,BCW-200036_02145,40.9,235,125,2,235,939,7,227,2.87e-53,181,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200036,Citrobacter
+CM_cdhit-1_transcript_368449,BCW-200087_05846,40.9,235,125,2,235,939,7,227,2.87e-53,181,TIGR01817,nifA: Nif-specific regulatory protein,BCW-200087,unassigned
+CM_cdhit-1_transcript_368449,BCW-201082_00937,40.9,235,125,2,235,939,7,227,2.87e-53,181,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201082,unassigned
+CM_cdhit-1_transcript_368449,BCW-201083_00211,40.9,235,125,2,235,939,7,227,2.87e-53,181,TIGR01817,nifA: Nif-specific regulatory protein,BCW-201083,Citrobacter
+CM_cdhit-1_transcript_375743,BCW-200208_05050,33,191,127,1,778,209,3,193,7.77e-20,86.7,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200208,Agrobacterium
+CM_cdhit-1_transcript_375743,BCW-200465_03768,32.5,191,128,1,778,209,3,193,1.08e-19,86.3,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200465,Agrobacterium
+CM_cdhit-1_transcript_375743,BCW-200328_03890,32.5,191,128,1,778,209,3,193,3.96e-19,84.7,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200328,Agrobacterium
+CM_cdhit-1_transcript_375743,BCW-200663_03826,32.5,191,128,1,778,209,3,193,3.96e-19,84.7,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200663,Agrobacterium
+CM_cdhit-1_transcript_375743,BCW-200705_02706,32.5,191,128,1,778,209,3,193,3.96e-19,84.7,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200705,Agrobacterium
+CM_cdhit-1_transcript_375743,BCW-200902_00666,32.5,191,128,1,778,209,3,193,3.96e-19,84.7,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200902,Agrobacterium
+CM_cdhit-1_transcript_375743,BCW-200903_00376,32.5,191,128,1,778,209,3,193,3.96e-19,84.7,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200903,unassigned
+CM_cdhit-1_transcript_375743,BCW-200904_02360,32.5,191,128,1,778,209,3,193,3.96e-19,84.7,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200904,Agrobacterium
+CM_cdhit-1_transcript_375743,BCW-200910_03884,32.5,191,128,1,778,209,3,193,3.96e-19,84.7,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200910,Agrobacterium
+CM_cdhit-1_transcript_375743,BCW-200912_01390,32.5,191,128,1,778,209,3,193,3.96e-19,84.7,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200912,unassigned
+CM_cdhit-1_transcript_375743,BCW-200920_03039,32.5,191,128,1,778,209,3,193,3.96e-19,84.7,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200920,Agrobacterium
+CM_cdhit-1_transcript_375743,BCW-200464_01188,33,191,127,1,778,209,3,193,5.48e-19,84.3,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200464,Agrobacterium
+CM_cdhit-1_transcript_375743,BCW-200215_00062,31.4,191,130,1,778,209,3,193,1.92e-17,80.1,TIGR02935,TIGR02935: probable nitrogen fixation protein,BCW-200215,Agrobacterium
+CM_cdhit-1_transcript_375743,BCW-201813_04308,32.8,198,121,8,772,203,36,229,1.76e-16,77.8,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201813,non-single-bin-prok
+CM_cdhit-1_transcript_375743,BCW-201815_01192,32.8,198,121,8,772,203,36,229,1.76e-16,77.8,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201815,non-single-bin-prok
+CM_cdhit-1_transcript_375743,BCW-201818_06885,32.8,198,121,8,772,203,36,229,1.76e-16,77.8,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201818,non-single-bin-prok
+CM_cdhit-1_transcript_375743,BCW-201823_02084,32.8,198,121,8,772,203,36,229,1.76e-16,77.8,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201823,non-single-bin-prok
+CM_cdhit-1_transcript_375743,BCW-201824_06661,32.8,198,121,8,772,203,36,229,1.76e-16,77.8,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201824,non-single-bin-prok
+CM_cdhit-1_transcript_375743,BCW-201825_05320,32.8,198,121,8,772,203,36,229,1.76e-16,77.8,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201825,non-single-bin-prok
+CM_cdhit-1_transcript_375743,BCW-201830_03189,32.8,198,121,8,772,203,36,229,1.76e-16,77.8,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201830,non-single-bin-prok
+CM_cdhit-1_transcript_375743,BCW-201834_01428,32.8,198,121,8,772,203,36,229,1.76e-16,77.8,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201834,non-single-bin-prok
+CM_cdhit-1_transcript_375743,BCW-201836_04438,32.8,198,121,8,772,203,36,229,1.76e-16,77.8,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201836,non-single-bin-prok
+CM_cdhit-1_transcript_375743,BCW-201840_04591,32.8,198,121,8,772,203,36,229,1.76e-16,77.8,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201840,non-single-bin-prok
+CM_cdhit-1_transcript_375743,BCW-201856_03462,32.8,198,121,8,772,203,36,229,1.76e-16,77.8,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201856,non-single-bin-prok
+CM_cdhit-1_transcript_375743,BCW-201860_06619,32.8,198,121,8,772,203,36,229,1.76e-16,77.8,TIGR03419,NifU_clost: FeS cluster assembly scaffold protein NifU,BCW-201860,non-single-bin-prok

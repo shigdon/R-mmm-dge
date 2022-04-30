@@ -1,0 +1,22 @@
+TIGRFAM	Model
+TIGR00736	nifR3_rel_arch: putative TIM-barrel protein
+TIGR00737	nifR3_yhdG: putative TIM-barrel protein, nifR3 family
+TIGR01290	nifB: nitrogenase cofactor biosynthesis protein NifB
+TIGR01581	Mo_ABC_porter: NifC-like ABC-type porter
+TIGR01616	nitro_assoc: nitrogenase-associated protein
+TIGR01817	nifA: Nif-specific regulatory protein
+TIGR01994	SUF_scaf_2: SUF system FeS assembly protein, NifU family
+TIGR01999	iscU: FeS cluster assembly scaffold IscU
+TIGR02000	NifU_proper: Fe-S cluster assembly protein NifU
+TIGR02663	nifX: nitrogen fixation protein NifX
+TIGR02929	anfG_nitrog: Fe-only nitrogenase, delta subunit
+TIGR02930	vnfG_nitrog: V-containing nitrogenase, delta subunit
+TIGR02935	TIGR02935: probable nitrogen fixation protein
+TIGR02936	fdxN_nitrog: ferredoxin III, nif-specific
+TIGR02938	nifL_nitrog: nitrogen fixation negative regulator NifL
+TIGR03402	FeS_nifS: cysteine desulfurase NifS
+TIGR03403	nifS_epsilon: cysteine desulfurase, NifS family
+TIGR03419	NifU_clost: FeS cluster assembly scaffold protein NifU
+TIGR03798	ocin_TIGR03798: nif11-like leader peptide domain
+TIGR03890	nif11_cupin: nif11 domain/cupin domain protein
+TIGR04103	rSAM_nif11_3: nif11-class peptide radical SAM maturase 3
